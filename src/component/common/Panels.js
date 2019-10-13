@@ -64,10 +64,8 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelDetails>
           <Typography>
           <ul style={{color:'#999999'}}>
-              <li>     pH Balanced</li>
-              <li>Soap Free Formula</li>
-              <li>Suitable for all skin types</li>
-              <li>Soothing and gentle on skin</li>
+              <li>    FACE AND BODY VERY HIGH PROTECTION</li>
+            
 
           </ul>
           </Typography>
@@ -79,7 +77,12 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-         <div style={{color:'#999999'}} >  Natural Colloidal Oatmeal, Sodium PCA, Citric Acid, Glycerin</div>
+         <div style={{color:'#999999'}} > Aqua, Laurus Nobills Leal
+Olycerin Maris Aqua, Sodium Benoe
+aytne Glycol, Potassium Sorbate OMOM
+y Eucommia Ulmoides
+Edact Panthenol, Citric
+NGen </div>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -89,8 +92,12 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-         <div style={{color:'#999999'}}  >Apply a sufficient amount onto wet skin and then gently massage covering entire face.
-               Rinse ensuring cleanser has been cleared.</div>
+         <div style={{color:'#999999'}}  > Apply plenty of product to the skin before sun
+exposure. Wait until the product is absorbed. In order o
+maintain the sun prolection, especially ater sweat, swim or
+towel usage, repeat the application process again. Protect
+your skin without leaving a greasy effect or an unwarted
+color cast while maintaining a radiant skin.</div>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

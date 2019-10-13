@@ -276,6 +276,16 @@ min-height: 500px;
     min-height: 500px; 
     
     }
+
+    #sol_backgroundimg{
+        background-image: url(../img/solmain.webp);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px; 
+        
+        }
 #angel_backgroundimg{
     background-image: url(../img/angel.jpg);
     background-attachment: fixed;

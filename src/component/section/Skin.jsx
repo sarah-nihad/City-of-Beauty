@@ -83,6 +83,15 @@ class Skin extends React.Component {
 
                                             </Col>
 
+                                            <Col id='ColOurProdect' md={6} lg={4} xl={3} >
+
+                                                <div style={{ backgroundColor: '#fff' }} id='perfume121' >
+                                                    <Link to='/Soleil' ><img src={require('../../assets/img/6.png')} alt='img' style={{ position: 'relative', width: '100%',  }} /></Link>
+
+                                                </div>
+
+                                            </Col>
+
 
 
 

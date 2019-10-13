@@ -23,6 +23,8 @@ import Contact from './component/home/Contact';
 import Hair from './component/section/Hair';
 import Angel from './component/section/Angel';
 import Dermavive from './component/section/Dermavive';
+import About from './component/common/About';
+import Soleil from './component/section/Soleil';
 
 const cookies = new Cookies();
 class App extends React.Component {
@@ -68,6 +70,8 @@ auth:''
           <Route path ='/Lenses' component={Lenses} />
           <Route path ='/Dermavive' component={Dermavive} />  
           <Route path ='/Admin' component={Admin} />  
+          <Route path ='/About' component={About} />  
+          <Route path ='/Soleil' component={Soleil} />  
             {/* </ScrollToTop> */}
            <Switch>
          

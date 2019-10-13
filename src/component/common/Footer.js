@@ -61,7 +61,7 @@ class Footer extends React.Component {
                                 <Col id='ColFooterSecond2' sm={12} md={6}>
                                     <i className="fab fa-facebook-f" id='IconHomeUP'></i>
                                 
-                                    <i className="fab fa-instagram" id='IconHomeUP'></i>
+                                  <a href='https://instagram.com/city_of_beauty?iqshid=13cvyt6fdyv3f'>  <i className="fab fa-instagram" id='IconHomeUP'></i></a>
                                 </Col>
                             </Row>
                         </div>

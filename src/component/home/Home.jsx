@@ -77,7 +77,7 @@ class Home extends React.Component {
                                                 {matches => (
                                                     <React.Fragment>
                                                         {matches.small &&
-                                                            <div style={{ width: '100%', backgroundColor: '#fff', height: '150px', alignItems: 'center', justifyContent: 'center', display: 'flex' }}  >
+                                                            <div style={{ width: '100%', backgroundColor: 'rgb(43, 43, 43)', height: '200px', alignItems: 'center', justifyContent: 'center', display: 'flex' }}  >
                                                                 <Carousel
                                                                     addArrowClickHandler
                                                                     slidesPerPage={1}
@@ -88,18 +88,21 @@ class Home extends React.Component {
                                                                     clickToChange
                                                                     infinite={true}
                                                                 >
-                                                                    <img id='slid_img' src={require('../../assets/img/1.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/2.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/3.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/4.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/5.jpg')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/1.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/2.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/3.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/4.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/5.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/6.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/rhino.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/amara.png')} alt='img' />
 
                                                                 </Carousel>
                                                             </div>
                                                         }
 
                                                         {matches.medium &&
-                                                            <div style={{ width: '100%', backgroundColor: '#fff', height: '150px', alignItems: 'center', justifyContent: 'center', display: 'flex' }}  >
+                                                            <div style={{ width: '100%', backgroundColor: 'rgb(43, 43, 43)', height: '200px', alignItems: 'center', justifyContent: 'center', display: 'flex' }}  >
                                                                 <Carousel
                                                                     addArrowClickHandler
                                                                     slidesPerPage={3}
@@ -110,18 +113,21 @@ class Home extends React.Component {
                                                                     clickToChange
                                                                     infinite={true}
                                                                 >
-                                                                    <img id='slid_img' src={require('../../assets/img/1.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/2.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/3.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/4.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/5.jpg')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/1.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/2.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/3.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/4.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/5.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/6.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/rhino.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/amara.png')} alt='img' />
 
                                                                 </Carousel>
                                                             </div>
                                                         }
 
                                                         {matches.large &&
-                                                            <div style={{ width: '100%', backgroundColor: '#fff', height: '150px', alignItems: 'center', justifyContent: 'center', display: 'flex' }}  >
+                                                            <div style={{ width: '100%', backgroundColor: 'rgb(43, 43, 43)', height: '200px', alignItems: 'center', justifyContent: 'center', display: 'flex' }}  >
                                                                 <Carousel
                                                                     addArrowClickHandler
                                                                     slidesPerPage={5}
@@ -132,11 +138,14 @@ class Home extends React.Component {
                                                                     clickToChange
                                                                     infinite={true}
                                                                 >
-                                                                    <img id='slid_img' src={require('../../assets/img/1.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/2.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/3.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/4.jpg')} alt='img' />
-                                                                    <img id='slid_img' src={require('../../assets/img/5.jpg')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/1.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/2.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/3.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/4.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/5.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/6.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/rhino.png')} alt='img' />
+                                                                    <img id='slid_img' src={require('../../assets/img/amara.png')} alt='img' />
 
                                                                 </Carousel>
                                                             </div>
@@ -234,6 +243,9 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel14.jpg')} alt='img' />
                                                                     </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
+                                                                    </div>
 
 
                                                               </Carousel>
@@ -309,6 +321,10 @@ class Home extends React.Component {
                                                                         <img id='slid_img' src={require('../../assets/img/angel14.jpg')} alt='img' />
                                                                     </div>
 
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
+                                                                    </div>
+
                                                             </Carousel>
 
                                                         </div>
@@ -380,6 +396,10 @@ class Home extends React.Component {
                                                                     </div>
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel14.jpg')} alt='img' />
+                                                                    </div>
+
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
                                                                     </div>
 
                                                                 </Carousel>
