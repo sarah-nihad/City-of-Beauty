@@ -86,7 +86,7 @@ class Contact extends React.Component {
                       <Row style={{ marginRight: 0 }} id='maprow'><Col xs={12} >
 
                         <iframe id="gmap_canvas"
-                          src="https://maps.google.com/maps?q=%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%20%D8%B2%D9%8A%D9%88%D9%86%D8%A9&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                          src="https://maps.google.com/maps?q=%D8%AD%D9%8A%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9&t=&z=13&ie=UTF8&iwloc=&output=embed"
                           frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" title='map'></iframe>
 
 

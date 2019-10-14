@@ -48,7 +48,7 @@ const ExpansionPanelDetails = withStyles(theme => ({
   },
 }))(MuiExpansionPanelDetails);
 
-export default function CustomizedExpansionPanels() {
+export default function CustomizedExpansionPanels(props) {
   const [expanded, setExpanded] = React.useState('panel1');
 
   const handleChange = panel => (event, newExpanded) => {
@@ -59,12 +59,12 @@ export default function CustomizedExpansionPanels() {
     <div>
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary  >
-        <img src={require('../../assets/img/benefits.jpg')} />  
+        <img src={require('../../assets/img/benefits.jpg')} style={{width:'100%'}} alt='img' />  
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
           <ul style={{color:'#999999'}}>
-              <li>    FACE AND BODY VERY HIGH PROTECTION</li>
+              <li>  {props.benefit}  </li>
             
 
           </ul>
@@ -73,31 +73,21 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-        <img src={require('../../assets/img/ingre.jpg')} />  
+        <img src={require('../../assets/img/ingre.jpg')} style={{width:'100%'}} alt='img' />  
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-         <div style={{color:'#999999'}} > Aqua, Laurus Nobills Leal
-Olycerin Maris Aqua, Sodium Benoe
-aytne Glycol, Potassium Sorbate OMOM
-y Eucommia Ulmoides
-Edact Panthenol, Citric
-NGen </div>
+         <div style={{color:'#999999'}} >  {props.ingred} </div>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-        <img src={require('../../assets/img/directions.jpg')} />  
+        <img src={require('../../assets/img/directions.jpg')}  style={{width:'100%'}} alt='img' />  
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-         <div style={{color:'#999999'}}  > Apply plenty of product to the skin before sun
-exposure. Wait until the product is absorbed. In order o
-maintain the sun prolection, especially ater sweat, swim or
-towel usage, repeat the application process again. Protect
-your skin without leaving a greasy effect or an unwarted
-color cast while maintaining a radiant skin.</div>
+         <div style={{color:'#999999'}}  > {props.direction}  </div>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

@@ -46,7 +46,7 @@ class Soleil extends React.Component {
 
 
                                 <div style={{ backgroundColor: '#fff', width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <img src={require('../../assets/img/6.png')} style={{height:'100px'}}  />
+                                    <img src={require('../../assets/img/6.png')} style={{ height: '100px' }} />
 
                                 </div>
 
@@ -72,24 +72,65 @@ class Soleil extends React.Component {
                                                 <div className='heading mt20'>SOLEIL SUN SCREEN CREAM </div>
                                                 <div className='mt30'>FACE AND BODY VERY HIGH PROTECTION </div>
                                                 <p className='mt10'>Aqua, Laurus Nobills Leal
+                                                Olycerin Maris Aqua, Sodium Benoe
+                                                aytne Glycol, Potassium Sorbate OMOM
+                                                         y Eucommia Ulmoides
+                                                       Edact Panthenol, Citric
+                                                                  NGen</p>
+
+
+                                                <div style={{ width: '70%' }}>
+                                                    <Panels benefit='FACE AND BODY VERY HIGH PROTECTION' ingred=' Aqua, Laurus Nobills Leal
 Olycerin Maris Aqua, Sodium Benoe
 aytne Glycol, Potassium Sorbate OMOM
 y Eucommia Ulmoides
 Edact Panthenol, Citric
-NGen</p>
-
-                                                <div style={{ width: '70%' }}>
-                                                    <Panels />
+NGen' direction=' Apply plenty of product to the skin before sun
+exposure. Wait until the product is absorbed. In order o
+maintain the sun prolection, especially ater sweat, swim or
+towel usage, repeat the application process again. Protect
+your skin without leaving a greasy effect or an unwarted
+color cast while maintaining a radiant skin.' />
                                                 </div>
 
 
                                             </Col>
 
                                             <Col xs={12} md={5}>
-                                                <img src={require('../../assets/img/sol.webp')} alt='img' />
+                                                <img src={require('../../assets/img/sol.webp')} alt='img' style={{width:'100%'}} />
                                             </Col>
 
                                         </Row>
+                                        
+                                        <Row style={{ marginRight: 0, width: '100%', marginBottom: '5%', marginTop: '8%' }}>
+                                            <Col xs={12} md={7} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
+                                                <div className='heading mt20'>SOLEIL FACE THERMAL WATER </div>
+                                                <div className='mt30'> ALL SKIN TYPES </div>
+                                                <p className='mt10'> REVITALIZES & NOURISHES WITH LAUREL LEAF WATER  ULTRA HEAT PROTECTION  </p>
+
+
+                                                <div style={{ width: '70%' }}>
+                                                    <Panels benefit='revitalizes & nourishes with laurel leaf water ulter heat protection' ingred='Aqua, Laurus Nobills Leal Olycerin Maris Aqua, Sodium Benoe aytne Glycol, Potassium Sorbate OMOMy Eucommia Ulmoides Edact Panthenol, Citric NGen'
+                                                     direction='Spray *
+                                                     aroximately 20 cm from the skin. Wait for a
+                                                     seconds to dry'  />
+                                                </div>
+
+
+                                            </Col>
+
+                                            <Col xs={12} md={5}>
+                                                <img src={require('../../assets/img/solmst.jpg')} alt='img' style={{width:'100%'}} />
+                                            </Col>
+
+                                        </Row>
+
+
+
+
+
+
+
 
 
 
@@ -117,7 +158,7 @@ NGen</p>
                                                 <div style={{ width: '100%', display: 'flex' }} >
                                                     <div style={{ width: '50%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} >
                                                         <img src={require('../../assets/img/solel4.webp')} alt='img' style={{ width: '70%' }} />
-                                                        <p style={{ fontSize: '13px', color: '#1c1b1b', lineHeight: '21px', padding: 20 }}  >BISABOLOL is a powerful extract from chamomile, this valuable 
+                                                        <p style={{ fontSize: '13px', color: '#1c1b1b', lineHeight: '21px', padding: 20 }}  >BISABOLOL is a powerful extract from chamomile, this valuable
                                                         skin soother calms and moisturizes the skin.</p>
                                                     </div>
 

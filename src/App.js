@@ -25,6 +25,8 @@ import Angel from './component/section/Angel';
 import Dermavive from './component/section/Dermavive';
 import About from './component/common/About';
 import Soleil from './component/section/Soleil';
+import RhinoSkin from './component/section/RhinoSkin';
+import RhinoHair from './component/section/RhinoHair';
 
 const cookies = new Cookies();
 class App extends React.Component {
@@ -71,6 +73,8 @@ auth:''
           <Route path ='/Dermavive' component={Dermavive} />  
           <Route path ='/Admin' component={Admin} />  
           <Route path ='/About' component={About} />  
+          <Route path ='/RhinoSkin' component={RhinoSkin} />  
+          <Route path ='/RhinoHair' component={RhinoHair} />  
           <Route path ='/Soleil' component={Soleil} />  
             {/* </ScrollToTop> */}
            <Switch>

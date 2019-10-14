@@ -276,6 +276,32 @@ min-height: 500px;
     min-height: 500px; 
     
     }
+    #skin_backgroundimg{
+        background-image: url(../img/roll.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 340px; 
+        
+        }
+    #nano_backgroundimg{
+        background-image: url(../img/nano1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px; 
+        
+        }
+        #rhino1_backgroundimg{
+            background-image: url(../img/rhino1.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 500px;  
+        }
 
     #sol_backgroundimg{
         background-image: url(../img/solmain.webp);
@@ -296,6 +322,17 @@ min-height: 500px;
     
     }
 
+#text_rhino{
+    position: absolute;
+  
+    top: 355px;
+    width: 60%;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #0262af;
+}
 
 .bottom_txt_inner {
     max-width: 800px;

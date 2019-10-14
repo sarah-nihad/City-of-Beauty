@@ -3,16 +3,14 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-import { Pane, Dialog, Button } from 'evergreen-ui';
+
 import Footer from '../common/Footer';
-import Component from '@reactions/component';
-import { Link } from 'react-router-dom';
+
 import Panels from '../common/Panels';
 
-import Lottie from 'lottie-react-web'
-// import animation from '../../assets/json/heart.json';
 
-class Dermavive extends React.Component {
+
+class RhinoHair extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -45,8 +43,8 @@ class Dermavive extends React.Component {
                                 <Nav2 />
 
 
-                                <div style={{ backgroundColor: '#e4a258', width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <img src={require('../../assets/img/derma_logo.jpg')} />
+                                <div style={{ backgroundColor: '#fff', width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                    <img src={require('../../assets/img/rhino.png')}  style={{height:100}} />
 
                                 </div>
 
@@ -62,33 +60,31 @@ class Dermavive extends React.Component {
                                     <div id='OurProdectContiners1'>
 
 
-                                        <div style={{ width: '100%' }} id='derma_backgroundimg' >
+                                        <div style={{ width: '100%' }} id='rhino1_backgroundimg' >
 
                                         </div>
 
                            
                                         <Row style={{ marginRight: 0, width: '100%',marginBottom:'5%',marginTop:'8%' }}>
                                             <Col xs={12} md={7} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
-                                                <div className='heading mt20'>DERMAVIVE HYDRA CLEANSER</div>
-                                                <div className='mt30'>Soap free cleanser for all skin types </div>
-                                                <p className='mt10'>A soap free cleanser that provides safe, effective and
+                                                <div className='heading mt20'>RHINO STRENGTHENED FORMULATION</div>
+                                                <div className='mt30'>48 HOURS ANTI-TRANSPIRANT </div>
+                                                {/* <p className='mt10'>A soap free cleanser that provides safe, effective and
                                                  gentle cleansing for all skin types in all
                                                    skin conditions. This pH balanced cleanser will prevent essential oils and moisture being
-                                                        stripped from your skin while cleansing.</p>
+                                                        stripped from your skin while cleansing.</p> */}
 
                                                   <div style={{width:'70%'}}>
-                                                  <Panels benefit='pH Balanced , 
-Soap Free Formula 
- , Suitable for all skin types , 
-Soothing and gentle on skin'  ingred='Natural Colloidal Oatmeal, Sodium PCA, Citric Acid, Glycerin' direction='Apply a sufficient amount onto wet skin and then gently massage covering entire face.
-Rinse ensuring cleanser has been cleared.' />
+                                                  <Panels benefit='Anti-shivering and refreshing formula that eliminates sweat and odor leaving you confident and refreshed all day long.'
+                                                  ingred='Aqua,Alcohol Denat,Parfum,PEG-40, HydrogennatedCastor Oil, Trideceth-9, Hydroxyethyl Cellosize, PPG-20 Methyl Glucose Ether, Ethythexylglicerin, DMDM Hydantion.'
+                                                  direction='Allow to dry before dressing. do not apply on sore or damaged skin' />
                                                   </div>
 
 
                                             </Col>
 
                                             <Col xs={12} md={5}>
-                                                <img src={require('../../assets/img/dermaviv1.jpg')} alt='img' style={{width:'100%'}} />
+                                                <img src={require('../../assets/img/rhino.JPG')} alt='img' style={{width:'100%'}} />
                                             </Col>
 
                                         </Row>
@@ -138,4 +134,4 @@ Rinse ensuring cleanser has been cleared.' />
         )
     }
 }
-export default withController(Dermavive);
+export default withController(RhinoHair);

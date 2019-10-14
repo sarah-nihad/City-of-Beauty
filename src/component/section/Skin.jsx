@@ -68,7 +68,7 @@ class Skin extends React.Component {
                                             <Col id='ColOurProdect' md={6} lg={4} xl={3} >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <Link to='/Nutredirm' ><img src={require('../../assets/img/nutre_logo.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: '90px' }} /></Link>
+                                                    <Link to='/Nutredirm' style={{display:'flex',justifyContent:'center'}} ><img src={require('../../assets/img/nutre_logo.jpg')} alt='img' style={{ position: 'relative', width: '90%' }} /></Link>
 
                                                 </div>
 
@@ -77,7 +77,7 @@ class Skin extends React.Component {
                                             <Col id='ColOurProdect' md={6} lg={4} xl={3} >
 
                                                 <div style={{ backgroundColor: '#E4A258' }} id='perfume121' >
-                                                    <Link to='/Dermavive' ><img src={require('../../assets/img/derma_logo.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: '120px' }} /></Link>
+                                                    <Link to='/Dermavive' style={{display:'flex',justifyContent:'center'}} ><img src={require('../../assets/img/derma_logo.jpg')} alt='img' style={{ position: 'relative', width: '90%' }} /></Link>
 
                                                 </div>
 
@@ -86,7 +86,16 @@ class Skin extends React.Component {
                                             <Col id='ColOurProdect' md={6} lg={4} xl={3} >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <Link to='/Soleil' ><img src={require('../../assets/img/6.png')} alt='img' style={{ position: 'relative', width: '100%',  }} /></Link>
+                                                    <Link to='/Soleil' style={{display:'flex',justifyContent:'center'}} ><img src={require('../../assets/img/6.png')} alt='img' style={{ position: 'relative', width: '90%', }} /></Link>
+
+                                                </div>
+
+                                            </Col>
+
+                                            <Col id='ColOurProdect' md={6} lg={4} xl={3} >
+
+                                                <div style={{ backgroundColor: '#fff' }} id='perfume121' >
+                                                    <Link to='/RhinoSkin' style={{display:'flex',justifyContent:'center'}} ><img src={require('../../assets/img/rhino.png')} alt='img' style={{ position: 'relative', width: '90%', }} /></Link>
 
                                                 </div>
 

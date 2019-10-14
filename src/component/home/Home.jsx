@@ -247,6 +247,29 @@ class Home extends React.Component {
                                                                         <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
                                                                     </div>
 
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/roll1.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/roll3.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/rhino2.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nanomask.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nanop.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
+                                                                    </div>
+
+
 
                                                               </Carousel>
 
@@ -324,6 +347,28 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
                                                                     </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/roll1.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/roll3.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/rhino2.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nanomask.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nanop.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
+                                                                    </div>
+
 
                                                             </Carousel>
 
@@ -400,6 +445,27 @@ class Home extends React.Component {
 
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/roll1.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/roll3.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/rhino2.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nanomask.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nanop.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
                                                                     </div>
 
                                                                 </Carousel>
@@ -885,7 +951,7 @@ class Home extends React.Component {
                                     <div id='ContactUsContiner'  >
                                         <div id='firstPartContactUs' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}  >
                                             <iframe id="gmap_canvas"
-                                                src="https://maps.google.com/maps?q=%D8%A7%D8%B1%D8%A8%D9%8A%D9%84%20%D8%AF%D8%B1%D9%8A%D9%85%20%D8%B3%D8%AA%D9%8A%20%D9%81%D9%8A%D9%84%D8%A713&t=&z=13&ie=UTF8&iwloc=&output=embed" style={{ width: '90%', height: '460px', padding: '20', boxShadow: '0px 0px 5px 1px rgba(153, 153, 153, 1)' }}
+                                                src="https://maps.google.com/maps?q=%D8%AD%D9%8A%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9&t=&z=13&ie=UTF8&iwloc=&output=embed" style={{ width: '90%', height: '460px', padding: '20', boxShadow: '0px 0px 5px 1px rgba(153, 153, 153, 1)' }}
                                                 frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" title='map'></iframe>
                                         </div>
                                         <div id='secondPartContactUs'   >
