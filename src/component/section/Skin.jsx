@@ -3,16 +3,10 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-import { Pane, Dialog, Button } from 'evergreen-ui';
 import Footer from '../common/Footer';
-import Component from '@reactions/component';
+
 import { Link } from 'react-router-dom';
-import host from '../../assets/js/Host';
 
-import axios from 'axios';
-
-import Lottie from 'lottie-react-web'
-// import animation from '../../assets/json/heart.json';
 
 class Skin extends React.Component {
     constructor(props) {

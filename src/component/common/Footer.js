@@ -30,7 +30,7 @@ class Footer extends React.Component {
                               
                                 <Col id='ColFooter' sm={12} lg={4}>    
                                 <div>  <i className='fas fa-envelope' id="i2"></i>    <h6 id="h6">Email :</h6></div> 
-      <p>info@cityofbeauty.com </p>
+      <p>mokhtar@cityofbeautyiq.com </p>
       <div> <i className="fa fa-clock-o" id="i2"></i> <h6 id="h6">Work days / Hours : </h6></div>
       <p>Saturday - Thursday 10am to 6pm</p>
       </Col>
@@ -59,10 +59,13 @@ class Footer extends React.Component {
                             <Row id='RowFooterSecond'>
                                 <Col id='ColFooterSecond1' sm={12} md={6}>© 2019 City of Beauty . All rights reserved  </Col>
                                 <Col id='ColFooterSecond2' sm={12} md={6}>
-                                    <i className="fab fa-facebook-f" id='IconHomeUP'></i>
+                                <a href='https://www.facebook.com/103696084368620/'>    <i className="fab fa-facebook-f" id='IconHomeUP'></i></a>
                                 
-                                  <a href='https://instagram.com/city_of_beauty?iqshid=13cvyt6fdyv3f'>  <i className="fab fa-instagram" id='IconHomeUP'></i></a>
+                                  <a href='https://instagram.com/city_of_beautyiq?igshid=13cvyt6fdyv3f'>  <i className="fab fa-instagram" id='IconHomeUP'></i></a>
                                 </Col>
+                            </Row>
+                            <Row id='RowFooterSecond' style={{display:'flex',alignItems:'center',justifyContent:'center'}} >
+                          <a href='https://www.croczi.com/' style={{color:'gray',textDecoration:'none'}} > Powerd By Croczi.com</a> 
                             </Row>
                         </div>
                     )

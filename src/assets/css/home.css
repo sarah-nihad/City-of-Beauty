@@ -312,6 +312,15 @@ min-height: 500px;
         min-height: 500px; 
         
         }
+        #vesta_backgroundimg{
+            background-image: url(../img/img1.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 500px; 
+            
+            }
 #angel_backgroundimg{
     background-image: url(../img/angel.jpg);
     background-attachment: fixed;
@@ -325,7 +334,7 @@ min-height: 500px;
 #text_rhino{
     position: absolute;
   
-    top: 355px;
+    top: 300px;
     width: 60%;
     padding: 50px;
     font-size: 20px;
@@ -1060,7 +1069,7 @@ width: 35vw;
 
     }
     #downHeaderNavContiner{
-        margin-top: 200px;
+        margin-top: 40px;
     }
     #uperBgcimage {
         margin-top: -22px;

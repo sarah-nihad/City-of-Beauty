@@ -3,14 +3,10 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-import { Pane, Dialog, Button } from 'evergreen-ui';
 import Footer from '../common/Footer';
-import Component from '@reactions/component';
-import { Link } from 'react-router-dom';
+import ScrollUpButton from "react-scroll-up-button";
 import Panels from '../common/Panels';
 
-import Lottie from 'lottie-react-web'
-// import animation from '../../assets/json/heart.json';
 
 class Dermavive extends React.Component {
     constructor(props) {
@@ -46,7 +42,7 @@ class Dermavive extends React.Component {
 
 
                                 <div style={{ backgroundColor: '#e4a258', width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <img src={require('../../assets/img/derma_logo.jpg')} />
+                                    <img src={require('../../assets/img/derma_logo.jpg')} alt='img' />
 
                                 </div>
 
@@ -88,7 +84,7 @@ Rinse ensuring cleanser has been cleared.' />
                                             </Col>
 
                                             <Col xs={12} md={5}>
-                                                <img src={require('../../assets/img/dermaviv1.jpg')} alt='img' style={{width:'100%'}} />
+                                                <img src={require('../../assets/img/dermaviv1.jpg')} alt='img' style={{width:'85%'}} />
                                             </Col>
 
                                         </Row>
@@ -122,6 +118,16 @@ Rinse ensuring cleanser has been cleared.' />
 
 
                             </div>
+                            <ScrollUpButton
+                                        StopPosition={0}
+                                        ShowAtPosition={150}
+                                        EasingType='easeOutCubic'
+                                        AnimationDuration={2000}
+                                        ContainerClassName='ScrollUpButton__Container'
+                                        TransitionClassName='ScrollUpButton__Toggled'
+                                        style={{ backgroundColor: 'rgba(46, 48, 49, 0.7)' }}
+                                        ToggledStyle={{}}
+                                    />
                             <Footer />
                         </div>
 

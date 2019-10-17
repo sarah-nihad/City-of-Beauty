@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
 import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import Typography from '@material-ui/core/Typography';
+
 
 const ExpansionPanel = withStyles({
   root: {
@@ -62,13 +62,13 @@ export default function CustomizedExpansionPanels(props) {
         <img src={require('../../assets/img/benefits.jpg')} style={{width:'100%'}} alt='img' />  
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+        <div>
           <ul style={{color:'#999999'}}>
               <li>  {props.benefit}  </li>
             
 
           </ul>
-          </Typography>
+          </div>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
@@ -76,9 +76,9 @@ export default function CustomizedExpansionPanels(props) {
         <img src={require('../../assets/img/ingre.jpg')} style={{width:'100%'}} alt='img' />  
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
-         <div style={{color:'#999999'}} >  {props.ingred} </div>
-          </Typography>
+        
+         <p style={{color:'#999999'}} >  {props.ingred} </p>
+     
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
@@ -86,9 +86,9 @@ export default function CustomizedExpansionPanels(props) {
         <img src={require('../../assets/img/directions.jpg')}  style={{width:'100%'}} alt='img' />  
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
-         <div style={{color:'#999999'}}  > {props.direction}  </div>
-          </Typography>
+       
+         <p style={{color:'#999999'}}  > {props.direction}  </p>
+      
         </ExpansionPanelDetails>
       </ExpansionPanel>
     </div>

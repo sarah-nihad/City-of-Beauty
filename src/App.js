@@ -3,17 +3,16 @@ import Context from './assets/js/Context';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Home from './component/home/Home.jsx';
-import ScrollToTop from './component/common/scrolToTop';
 
 import './App.css';
 
-import axios from 'axios';
+
 import './assets/css/home.css';
 import './assets/css/test.scss';
 import'./assets/css/common.css';
 import'./assets/css/ss.css';
 import'./assets/css/task.css';
-import Cookies from 'universal-cookie';
+
 
 import Skin from './component/section/Skin';
 import Admin from './component/common/Admin';
@@ -27,8 +26,10 @@ import About from './component/common/About';
 import Soleil from './component/section/Soleil';
 import RhinoSkin from './component/section/RhinoSkin';
 import RhinoHair from './component/section/RhinoHair';
+import Perfume from './component/section/Perfume';
+import Nano from './component/section/Nano';
 
-const cookies = new Cookies();
+
 class App extends React.Component {
   constructor(props) {
     super(props);   
@@ -76,6 +77,8 @@ auth:''
           <Route path ='/RhinoSkin' component={RhinoSkin} />  
           <Route path ='/RhinoHair' component={RhinoHair} />  
           <Route path ='/Soleil' component={Soleil} />  
+          <Route path ='/Nano' component={Nano} /> 
+          <Route path ='/Perfume' component={Perfume} />  
             {/* </ScrollToTop> */}
            <Switch>
          

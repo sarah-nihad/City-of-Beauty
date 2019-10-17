@@ -1,23 +1,16 @@
 import React from 'react';
 import Context from '../../assets/js/Context';
 import NavBar from '../common/NavBar';
-import { Parallax, withController } from 'react-scroll-parallax';
-import Component from '@reactions/component';
+import { withController } from 'react-scroll-parallax';
+
 import ScrollUpButton from "react-scroll-up-button";
 import Footer from '../common/Footer';
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
-import Icon from 'react-fa';
-import { Row, Col } from 'react-bootstrap';
-import { Pane, Dialog, Button } from 'evergreen-ui';
 import Media from "react-media";
-import host from '../../assets/js/Host';
-import { makeStyles } from '@material-ui/core/styles';
+
 import Mod from '../common/Mod';
 
-
-// import Lottie from 'lottie-react-web'
-// import animation from '../../assets/json/heart.json';
 
 
 
@@ -58,9 +51,9 @@ class Home extends React.Component {
                                         </div>
                                         <div id='upNavBar2'>
                                             {/* <i className="fas fa-facebook-f" style={{ color: '#fff',marginLeft:50 }}></i> */}
-                                            <i className="fab fa-facebook-f" id='IconHomeUP'></i>
+                                            <a href='https://www.facebook.com/103696084368620/'>   <i className="fab fa-facebook-f" id='IconHomeUP'></i> </a>
                                         
-                                            <i className="fab fa-instagram" id='IconHomeUP'></i>
+                                            <a href='https://instagram.com/city_of_beautyiq?igshid=13cvyt6fdyv3f'>   <i className="fab fa-instagram" id='IconHomeUP'></i></a>
                                         </div>
                                     </div>
                                     <NavBar />
@@ -268,6 +261,22 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
                                                                     </div>
+                                                                  
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano2.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano3.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano4.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano5.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano6.jpg')} alt='img' />
+                                                                    </div>
 
 
 
@@ -368,6 +377,22 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
                                                                     </div>
+                                                                  
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano2.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano3.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano4.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano5.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano6.jpg')} alt='img' />
+                                                                    </div>
 
 
                                                             </Carousel>
@@ -466,6 +491,22 @@ class Home extends React.Component {
                                                                     </div>
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
+                                                                    </div>
+                                                                
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano2.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano3.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano4.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano5.jpg')} alt='img' />
+                                                                    </div>
+                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
+                                                                        <img id='slid_img' src={require('../../assets/img/nano6.jpg')} alt='img' />
                                                                     </div>
 
                                                                 </Carousel>
@@ -931,7 +972,8 @@ class Home extends React.Component {
                                         <div style={{ width: '60%', padding: '30px' }} id='te_homr'  >
 
                                             <div > ABOUT US :  </div>
-                                     
+                                            City of Beauty(COB) is an Iraqi incorporated company that offers a wide range of branded genuine perfumes, skincare, haircare, and lenses to retails end consumers at greatly discounted prices. started with E-Commerce operation,
+                                             by choosing top 10 Iraqi fashion bloggers and models to present our brands.
                                             </div>
 
 

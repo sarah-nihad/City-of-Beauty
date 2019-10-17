@@ -3,14 +3,8 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-import { Pane, Dialog, Button } from 'evergreen-ui';
 import Footer from '../common/Footer';
-import Component from '@reactions/component';
-import { Link } from 'react-router-dom';
-
-
-import Lottie from 'lottie-react-web'
-// import animation from '../../assets/json/heart.json';
+import ScrollUpButton from "react-scroll-up-button";
 
 class Nutredirm extends React.Component {
     constructor(props) {
@@ -38,7 +32,7 @@ class Nutredirm extends React.Component {
         return (
             <Context.Consumer>
                 {ctx => {
-                    //    if (ctx.value.auth ==='lgoin' ||  ctx.value.auth ==='notlogin' ){
+              
                     return (
                         <div id='mainEquContiner_cate'  >
                             <div id='apfot'>
@@ -46,7 +40,7 @@ class Nutredirm extends React.Component {
 
 
                                 <div style={{ width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px',display:'flex',alignItems:'center',justifyContent:'center' }}>
-                                    <img src={require('../../assets/img/nutre_logo.jpg')} />
+                                    <img src={require('../../assets/img/nutre_logo.jpg')} alt='img' />
 
                                 </div>
 
@@ -63,7 +57,7 @@ class Nutredirm extends React.Component {
 
                                         <Row style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginRight: 0 }} >
                                             <div id='nutre_divleft' >
-                                                <img src={require('../../assets/img/nutre.png')} id='img_leftnut' />
+                                                <img src={require('../../assets/img/nutre.png')} id='img_leftnut' alt='img' />
                                                 <div className='slider' style={{ backgroundColor: '#9E9E9E', minHeight: '320px', padding: '50px 30px 30px 20px', marginTop: '-19px' }} >
                                                     <ul>
                                                         <li> Non-prescription & Hydroquinone free </li>
@@ -89,7 +83,7 @@ class Nutredirm extends React.Component {
 
 
                                             <div id='nutre_divright'>
-                                                <img src={require('../../assets/img/nutre4.png')} id='img_rifht' />
+                                                <img src={require('../../assets/img/nutre4.png')} id='img_rifht' alt='img' />
                                                 <div className='main_content'>
                                                     <h1>For an extensive approach to skin brightening,
                                                        look no further than the effective, complete and comprehensive Neutriderm Brightening Range.</h1>
@@ -157,11 +151,11 @@ class Nutredirm extends React.Component {
                                             <div id='bottomimgnutre'>
 
                                                 <div className='bottom_image_box'>
-                                                    <img src={require('../../assets/img/nutre2.jpg')} />
+                                                    <img src={require('../../assets/img/nutre2.jpg')} alt='img'  />
 
                                                 </div>
                                                 <div className='shampoo_bottle_image'>
-                                                    <img src={require('../../assets/img/nutre1.png')} />
+                                                    <img src={require('../../assets/img/nutre1.png')} alt='img' />
 
 
                                                 </div>
@@ -169,45 +163,7 @@ class Nutredirm extends React.Component {
 
                                         </div>
 
-                                        {/* <Row id='RowOurProdect' style={{ marginTop: '5%', marginRight: 0 }} >
-                                        
-                                            <Col id='ColOurProdect' md={6} lg={4} xl={3}
-
-                                            >
-
-                                                <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/sabon.JPG')} alt='img' style={{ position: 'relative', width: '100%', height: 253 }} />
-                                                </div>
-
-                                            </Col>
-                                            <Col id='ColOurProdect' md={6} lg={4} xl={3}
-
-                                            >
-
-                                                <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/sabon1.JPG')} alt='img' style={{ position: 'relative', width: '100%', height: 253 }} />
-                                                </div>
-
-                                            </Col>
-                                            <Col id='ColOurProdect' md={6} lg={4} xl={3}
-
-                                            >
-
-                                                <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/sabon2.JPG')} alt='img' style={{ position: 'relative', width: '100%', height: 253 }} />
-                                                </div>
-
-                                            </Col>
-                                            <Col id='ColOurProdect' md={6} lg={4} xl={3}
-
-                                            >
-
-                                                <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/sabon3.JPG')} alt='img' style={{ position: 'relative', width: '100%', height: 253 }} />
-                                                </div>
-
-                                            </Col>
-                                        </Row> */}
+        
                                   
                                   
                                   
@@ -226,6 +182,16 @@ class Nutredirm extends React.Component {
 
 
                             </div>
+                            <ScrollUpButton
+                                        StopPosition={0}
+                                        ShowAtPosition={150}
+                                        EasingType='easeOutCubic'
+                                        AnimationDuration={2000}
+                                        ContainerClassName='ScrollUpButton__Container'
+                                        TransitionClassName='ScrollUpButton__Toggled'
+                                        style={{ backgroundColor: 'rgba(46, 48, 49, 0.7)' }}
+                                        ToggledStyle={{}}
+                                    />
                             <Footer />
                         </div>
 

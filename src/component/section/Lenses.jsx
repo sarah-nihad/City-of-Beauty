@@ -3,16 +3,13 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-import { Pane, Dialog, Button } from 'evergreen-ui';
+import ScrollUpButton from "react-scroll-up-button";
 import Footer from '../common/Footer';
-import Component from '@reactions/component';
-import Mod from '../common/Mod';
-import host from '../../assets/js/Host';
-import ReactPlayer from 'react-player';
-import axios from 'axios';
 
-import Lottie from 'lottie-react-web'
-// import animation from '../../assets/json/heart.json';
+import Mod from '../common/Mod';
+import ReactPlayer from 'react-player';
+
+
 
 class Lenses extends React.Component {
     constructor(props) {
@@ -27,28 +24,6 @@ class Lenses extends React.Component {
     handleLoad = () => {
         this.props.parallaxController.update();
     };
-
-
-    componentDidMount() {
-
-        const urlParams = new URLSearchParams(window.location.search);
-        const myParam = urlParams.get('id');
-        const name = urlParams.get('name');
-        this.setState({ name })
-        axios.get(host + `item/category/${myParam}`)
-
-            .then(res1 => {
-
-                this.setState({
-                    data1: res1.data.items
-                })
-                // console.log(res1.data)
-            })
-            .catch(err => {
-                console.log('error:' + err);
-            })
-    }
-
 
 
 
@@ -88,7 +63,7 @@ class Lenses extends React.Component {
                                             <Col xs={12} lg={6} id='amara_col' >
                                                 <div style={{ display: 'flex', flexDirection: 'column', width: '90%', backgroundColor: '#000', borderRadius: '10px', color: '#fff' }}>
                                                     <div style={{ height: '90px', justifyContent: 'center', alignItems: 'center', display: 'flex' }} >
-                                                        <img src={require('../../assets/img/amara.png')} id='amara_img' /></div>
+                                                        <img src={require('../../assets/img/amara.png')} id='amara_img' alt='img'  /></div>
                                                     <p id='amara_text' style={{ padding: '20px' }}>
                                                         We are relentless in our pursuit of the latest optical innovations,
                                                          from contact lens technologies to breakthroughs in eyewear design.
@@ -102,7 +77,7 @@ class Lenses extends React.Component {
                                         </Row>
 
                                         <Row id='RowOurProdect' style={{ marginTop: '5%' }} >
-                                            {/* {this.state.data1.map(((item, i) => */}
+
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
@@ -230,6 +205,23 @@ class Lenses extends React.Component {
                                                     </div>
                                                 </div>
                                             </Col>
+                                        </Row>
+                                        <div style={{ width: '100%', display: 'flex', flexDirection: 'column', marginBottom: '5%' }}   >
+
+                                            <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                                <video muted autoPlay loop style={{ width: '100%', height: 400 }}  >
+                                                    <source src={require('../../assets/maya.MP4')} type="video/MP4" />
+                                                </video>
+
+
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <Row id='RowOurProdect'  >
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
@@ -251,7 +243,7 @@ class Lenses extends React.Component {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col id='ColOurProdect' xs={12} lg={6} lg={4} xl={3}
+                                            <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
                                                 <div id='perfume1' >
@@ -265,13 +257,13 @@ class Lenses extends React.Component {
                                             </Col>
 
 
-                                            <Col id='ColOurProdect' xs={12} lg={6} lg={4} xl={3}
+                                            <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
                                                 <div id='perfume1' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le16.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
-                                                        <Mod name='Desert Rose' img='le16.JPG'
+                                                        <Mod name='Smoke Gray' img='le16.JPG'
                                                         />
                                                     </div>
 
@@ -279,13 +271,13 @@ class Lenses extends React.Component {
                                             </Col>
 
 
-                                            <Col id='ColOurProdect' xs={12} lg={6} lg={4} xl={3}
+                                            <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
                                                 <div id='perfume1' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le17.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
-                                                        <Mod name='Desert Rose' img='le17.JPG'
+                                                        <Mod name='Gentle Gray' img='le17.JPG'
                                                         />
                                                     </div>
 
@@ -293,37 +285,37 @@ class Lenses extends React.Component {
                                             </Col>
 
 
-                                            <Col id='ColOurProdect' xs={12} lg={6} lg={4} xl={3}
+                                            <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
+
+                                            >
+                                                <div id='perfume1' >
+                                                    <img id='slid_imglense' src={require('../../assets/img/le19.JPG')} alt='img' style={{ position: 'relative' }} />
+                                                    <div style={{ position: 'absolute' }} >
+                                                        <Mod name='Horizon Gray' img='le19.JPG'
+                                                        />
+                                                    </div>
+
+                                                </div>
+                                            </Col>
+                                            <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
                                                 <div id='perfume1' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le18.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
-                                                        <Mod name='Desert Rose' img='le18.JPG'
+                                                        <Mod name='Pearl' img='le18.JPG'
                                                         />
                                                     </div>
 
                                                 </div>
                                             </Col>
-                                            <Col id='ColOurProdect' xs={12} lg={6} lg={4} xl={3}
-
-                                            >
-                                                <div id='perfume1' >
-                                                    <img id='slid_imglense' src={require('../../assets/img/le18.JPG')} alt='img' style={{ position: 'relative' }} />
-                                                    <div style={{ position: 'absolute' }} >
-                                                        <Mod name='Desert Rose' img='le18.JPG'
-                                                        />
-                                                    </div>
-
-                                                </div>
-                                            </Col>
-                                            <Col id='ColOurProdect' xs={12} lg={6} lg={4} xl={3}
+                                            <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
                                                 <div id='perfume1' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le20.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
-                                                        <Mod name='Desert Rose' img='le20.JPG'
+                                                        <Mod name='Golden Sand ' img='le20.JPG'
                                                         />
                                                     </div>
 
@@ -334,6 +326,7 @@ class Lenses extends React.Component {
 
 
                                         </Row>
+
                                     </div>
 
 
@@ -348,6 +341,16 @@ class Lenses extends React.Component {
 
 
                             </div>
+                            <ScrollUpButton
+                                        StopPosition={0}
+                                        ShowAtPosition={150}
+                                        EasingType='easeOutCubic'
+                                        AnimationDuration={2000}
+                                        ContainerClassName='ScrollUpButton__Container'
+                                        TransitionClassName='ScrollUpButton__Toggled'
+                                        style={{ backgroundColor: 'rgba(46, 48, 49, 0.7)' }}
+                                        ToggledStyle={{}}
+                                    />
                             <Footer />
                         </div>
 

@@ -3,14 +3,10 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-import { Pane, Dialog, Button } from 'evergreen-ui';
 import Footer from '../common/Footer';
-import Component from '@reactions/component';
-import { Link } from 'react-router-dom';
+import ScrollUpButton from "react-scroll-up-button";
 import AngelMod from '../common/AngelMod';
 
-import Lottie from 'lottie-react-web'
-// import animation from '../../assets/json/heart.json';
 
 class Angel extends React.Component {
     constructor(props) {
@@ -46,7 +42,7 @@ class Angel extends React.Component {
 
 
                                 <div style={{ width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <img src={require('../../assets/img/angel_logo.png')} />
+                                    <img src={require('../../assets/img/angel_logo.png')} alt='img' />
 
                                 </div>
 
@@ -80,13 +76,13 @@ class Angel extends React.Component {
                                                 <h1>
                                                     It is very easy to produce High quality products at High cost;
                                                      Our challenge is to produce High quality products at Low cost.</h1>
-                                                <p>
+                                                <p style={{padding:10}}>
                                                     Our mission statement has placed 'Angel Haircare' as one of the most growing brands of professional cosmetics.
                                                 </p>
-                                                <p>All our stakeholders are astound by the positive results obtained by this price/quality oriented brand.
+                                                <p style={{padding:10}}>All our stakeholders are astound by the positive results obtained by this price/quality oriented brand.
                                                     It is not just the big number of hairdressing salons that make us amongst the best,
                                                      but also by top hair-stylists who use and recommend Angel Haircare internationally.</p>
-                                                <p> We currently supply the full range of Angel Professional Hair Products. All our products, are tested by our team of professionals, before being put in our product portfolio,
+                                                <p style={{padding:10}} > We currently supply the full range of Angel Professional Hair Products. All our products, are tested by our team of professionals, before being put in our product portfolio,
                                                          so our customers can put their mind at rest about the quality of the product. </p>
                                             </div>
 
@@ -101,7 +97,7 @@ class Angel extends React.Component {
                                             >
                 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel1.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel1.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Helichrysum revitalizing shampoo' img='angel1.jpg' desciption='Professionally formulated for dry, damaged or frizzy hair,
                                                          this shampoo contains helichrysum essence and vitamin A, E which can effectively prevent UVA and UVB damage while repairing the damaged areas of hair shaft.
@@ -118,7 +114,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel2.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel2.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Helichrysum pure nourishing hair mask' img='angel2.jpg' desciption='Enriched with helichrysum active ingredient with antistatic properties to thoroughly alleviate the irritation to scalp while rejuvenating and revitalizing damaged hair caused by hot styling tools and environmental elements leaving hair refreshing, lustrous and easy for styling. 
                                                         Containing shea butter to deep condition and nourish each hair for a vibrant and healthy look.'
@@ -136,7 +132,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel3.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel3.jpg')} alt='img' style={{ position: 'relative', width: '100%'}} />
                                                
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Helichrysum wakening hydration cream' img='angel3.jpg' desciption='Enriched with helichrysum and other botanical extracts to nourish the hair from within, our unique leave-in formula can enhance UV ray protection of hair and prevent dryness, frizz and split ends caused by environmental damage. 
@@ -153,7 +149,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel4.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel4.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Helichrysum shine styling wax' img='angel4.jpg' desciption='Creates versatile hairstyles with long lasting hold and distinct texture within seconds. Suitable for any type of hair,
                                                          you can instantly create the coolest hairstyle, expressing yourself with an all-day, sexy and flexible hold.' 
@@ -169,7 +165,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel5.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel5.jpg')} alt='img' style={{ position: 'relative', width: '100%'}} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Orange flower color protect hair Mask' img='angel5.jpg' desciption='Containing orange flower oil and pelargonium graveolens extract to form a protective membrane to lock in color, this leaves the hair shining and vivacious. Specially formulated protein to strengthen hair from within while the naturally extracted sunscreen factor
                                                          can protect hair color from fading caused by UV rays. Hair will look soft, vibrant and lustrous after coloring.'
@@ -186,7 +182,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel6.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel6.jpg')} alt='img' style={{ position: 'relative', width: '100%'}} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name=' Morocco color protect silky oil ' img='angel6.jpg' desciption='Enriched with morocco oil, orange flower oil, water soluble protein, rosemary and other micro-molecule plant essential oil, to supplement refining protein to hair while deeply repairing dry or damaged hair caused by coloring and chemical treatment.
                                                          Leaves hair vibrant and elastic. Suitable for dry, damaged, or frequently colored hair.'
@@ -202,7 +198,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel7.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel7.jpg')} alt='img' style={{ position: 'relative', width: '100%'}} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Green tea deep cleansing anti dandruff spray' img='angel7.jpg' desciption='With double green tea activating essences to 
                                                         instantly relax and cleanse the scalp by exfoliating and supplementing moisture to scalp. Boosts the scalp’s natural defenses to effectively prevent dandruff build-up and balance sebum secretion, restoring the scalp back to its soft, clean and healthy condition.'
@@ -220,7 +216,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel8.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel8.jpg')} alt='img' style={{ position: 'relative', width: '100%'}} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Rose elastic volume cream' img='angel8.jpg' desciption='Rose extract enriched with vitamin C and keratin can promptly provide nutrients to permed hair, eliminating frizz, dryness and tousle. Protects hair from hot styling tools, 
                                                         this styling cream gives a comfortable touch, especially suitable for natural curly hair or permed hair.' 
@@ -237,7 +233,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel9.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel9.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Rose nourishing treatment cream' img='angel9.jpg' desciption='Specially added moisturizers and repairing nutrients to effectively repair damaged hair by
                                                          penetrating through the hair shaft and forming a nourishing layer around the hair, keeps hair soft supple, lustrous and easy to manage. Gives you a beautiful dazzling hair full of elasticity and shine.'
@@ -254,7 +250,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel10.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel10.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Grapefruit straighten treatment cream' img='angel10.jpg' desciption='Specially designed for frequently bleached, colored and chemically treated hair. Containing grapefruit extract, this treatment can restore hair back to its healthy PH value, maintaining hair color and straight feel. Vitamin C added to deeply nourish and repair damaged hair,
                                                          leaving hair soft, delicate, straight and with a natural glow.' usage='After shampooing, apply an appropriate amount on to palm. Rub hand together and massage evenly from roots to ends. For the best results, 
@@ -271,7 +267,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel11.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel11.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Citrus scalp cuticle removing lotion' img='angel11.jpg' desciption='Enriched with citrus oil and bergamont essence can clarify and relax the scalp while preventing bacteria infection and irritation. Gently exfoliating and effectively promoting
@@ -287,7 +283,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel12.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel12.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Citrus scalp relaxing essence' img='angel12.jpg' desciption='Enriched with citrus oil and salvia extract to relax stressed scalp and supplement moisture to scalp, leaves the scalp revived and refreshed with healthy balance.'
                                                           usage='Towel dry scalp after cleansing and evenly apply this product onto scalp and hair. Gently massage and pat scalp with fingertips for 3-5 minutes. Leave in.'
@@ -302,7 +298,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel13.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel13.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Mocha coffein perm liquid' img='angel13.jpg' desciption='Containing coffein effective ingredient to improve and enhance the self-protecting function of hair shaft. Quickly 
                                                         soften the hair without damaging it, leaving hair full of bounce and shining with natural glow. Pleasant fragance.' 
@@ -322,7 +318,7 @@ class Angel extends React.Component {
                                             >
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <img src={require('../../assets/img/angel14.jpg')} alt='img' style={{ position: 'relative', width: '100%', height: 190 }} />
+                                                    <img src={require('../../assets/img/angel14.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <AngelMod name='Mocha coffein cold wave (For normal/damaged hair)' img='angel14.jpg' desciption='Enriched with coffein effective ingredient and helichrysum essence with antistatic property, this wave can fully alleviate the irritation to scalp. Containing grape seed oil and avocado oil to deeply nourish and moisturize the hair from within, preventing split ends, leaves hair soft, vibrant and
                                                          healthy shining after wave. Suitable even for frizzy dry hair, hair will also look vivacious, vibrant and charming'
@@ -361,6 +357,16 @@ class Angel extends React.Component {
 
 
                             </div>
+                            <ScrollUpButton
+                                        StopPosition={0}
+                                        ShowAtPosition={150}
+                                        EasingType='easeOutCubic'
+                                        AnimationDuration={2000}
+                                        ContainerClassName='ScrollUpButton__Container'
+                                        TransitionClassName='ScrollUpButton__Toggled'
+                                        style={{ backgroundColor: 'rgba(46, 48, 49, 0.7)' }}
+                                        ToggledStyle={{}}
+                                    />
                             <Footer />
                         </div>
 

@@ -3,7 +3,7 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-
+import ScrollUpButton from "react-scroll-up-button";
 import Footer from '../common/Footer';
 
 import Panels from '../common/Panels';
@@ -44,7 +44,7 @@ class RhinoHair extends React.Component {
 
 
                                 <div style={{ backgroundColor: '#fff', width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <img src={require('../../assets/img/rhino.png')}  style={{height:100}} />
+                                    <img src={require('../../assets/img/rhino.png')}  style={{height:100}}  alt='img' />
 
                                 </div>
 
@@ -67,17 +67,29 @@ class RhinoHair extends React.Component {
                            
                                         <Row style={{ marginRight: 0, width: '100%',marginBottom:'5%',marginTop:'8%' }}>
                                             <Col xs={12} md={7} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
-                                                <div className='heading mt20'>RHINO STRENGTHENED FORMULATION</div>
-                                                <div className='mt30'>48 HOURS ANTI-TRANSPIRANT </div>
+                                                <div className='heading mt20'>RHINO FULL REPAIR HAIR CARE MOUSSE</div>
+                                                <div className='mt30'>SHINE EFFECT FOR ALL HAIR TYPE </div>
                                                 {/* <p className='mt10'>A soap free cleanser that provides safe, effective and
                                                  gentle cleansing for all skin types in all
                                                    skin conditions. This pH balanced cleanser will prevent essential oils and moisture being
                                                         stripped from your skin while cleansing.</p> */}
 
                                                   <div style={{width:'70%'}}>
-                                                  <Panels benefit='Anti-shivering and refreshing formula that eliminates sweat and odor leaving you confident and refreshed all day long.'
-                                                  ingred='Aqua,Alcohol Denat,Parfum,PEG-40, HydrogennatedCastor Oil, Trideceth-9, Hydroxyethyl Cellosize, PPG-20 Methyl Glucose Ether, Ethythexylglicerin, DMDM Hydantion.'
-                                                  direction='Allow to dry before dressing. do not apply on sore or damaged skin' />
+                                                  <Panels benefit='Mousse-Relives and moisturines hair 
+                                                                      ends with its light formula while adding extra 
+                                                                      setnes and ensuring more shine without making  scent!.'
+                                                  ingred=' Aqua, Octyldodecanol, Butne Behentino
+                                                  Oieride, PEG-12 Dimethicone, Parfum, CeyAlol Sd
+                                                  Cocamphoacetate, Phenoxyethanol, Hydlyd Mik P
+                                                  Panthenal, Propylene Glycol, Propane Eyhel
+                                                  butane,Tocopheryl Acetate, Amyl ly Aa
+                                                  elll, Hexyl Cinnamal, Limonene,
+                                                  ALMAOSAD'
+                                                  direction='Hold the bottle 
+                                                  and shake really well before use, spray some from in
+                                                  pai of your hands and distribute it into in your
+                                                  evenly, use it on wet hair for best results. You may
+                                                  Blow-dryer to shape your hair locks afterwards.' />
                                                   </div>
 
 
@@ -112,12 +124,17 @@ class RhinoHair extends React.Component {
 
                                 </div>
 
-
-
-
-
-
                             </div>
+                            <ScrollUpButton
+                                        StopPosition={0}
+                                        ShowAtPosition={150}
+                                        EasingType='easeOutCubic'
+                                        AnimationDuration={2000}
+                                        ContainerClassName='ScrollUpButton__Container'
+                                        TransitionClassName='ScrollUpButton__Toggled'
+                                        style={{ backgroundColor: 'rgba(46, 48, 49, 0.7)' }}
+                                        ToggledStyle={{}}
+                                    />
                             <Footer />
                         </div>
 

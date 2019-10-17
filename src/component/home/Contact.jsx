@@ -6,7 +6,7 @@ import { Row, Col } from 'react-bootstrap';
 
 import Footer from '../common/Footer';
 import { TextInput, Textarea } from 'evergreen-ui';
-import Lottie from 'lottie-react-web'
+
 
 import axios from 'axios';
 
@@ -105,7 +105,7 @@ class Contact extends React.Component {
                         </Col>
                         <Col md={4}>
                           <p id='sarstylefont'> E-MAIL:</p>
-                          <div> <i className="fas fa-envelope-open"></i> <span style={{ paddingLeft: '10px' }} > info@cityofbeauty.com  </span>
+                          <div> <i className="fas fa-envelope-open"></i> <span style={{ paddingLeft: '10px' }} > mokhtar@cityofbeautyiq.com  </span>
                           </div>
 
                         </Col>

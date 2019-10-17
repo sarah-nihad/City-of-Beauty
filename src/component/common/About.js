@@ -2,7 +2,7 @@ import React from 'react';
 import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
-import { Row, Col } from 'react-bootstrap';
+import { Row,  } from 'react-bootstrap';
 import ScrollUpButton from "react-scroll-up-button";
 import Footer from '../common/Footer';
 
@@ -84,13 +84,13 @@ class About extends React.Component {
 
                                     <div style={{ width: '100%' }} >
 
-                                        <Row id='About_row' style={{
+                                        {/* <Row id='About_row' style={{
                                             display: 'flex', backgroundColor: 'rgb(45, 48, 48)'
                                             , marginRight: 0,marginBottom:50
                                         }}  >
 
                                             <Col xs={12} md={6} id='about_col1' >
-                                                <div id='about_div1' >
+                                                <div id='about_div1'style={{height:'auto'}} >
                                                    <i className="fab fa-telegram-plane" style={{ fontSize: '60px', color: '#fff', lineHeight: '100px' }}  ></i>  
                                                     <p style={{ fontSize: '30px', lineHeight: '40px' }}  >Our Mission</p>
                                                     <div style={{ textAlign: 'center', padding: '10px' }} >
@@ -108,7 +108,7 @@ class About extends React.Component {
 
 
                                             <Col xs={12} md={6} id='about_col1' >
-                                                <div id='about_div1' >
+                                                <div id='about_div1' style={{height:'auto'}} >
                                                  <i className="far fa-eye" style={{ fontSize: '60px', color: '#fff', lineHeight: '100px' }}  ></i>  
                                                     <p style={{ fontSize: '30px', lineHeight: '40px' }}  >Our Vision</p>
                                                     <div style={{ textAlign: 'center', padding: '10px' }} >
@@ -126,7 +126,7 @@ class About extends React.Component {
 
 
 
-                                        </Row>
+                                        </Row> */}
                                     </div>
 
 

@@ -3,14 +3,10 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-import { Pane, Dialog, Button } from 'evergreen-ui';
 import Footer from '../common/Footer';
-import Component from '@reactions/component';
-import { Link } from 'react-router-dom';
+import ScrollUpButton from "react-scroll-up-button";
 import Panels from '../common/Panels';
 
-import Lottie from 'lottie-react-web'
-// import animation from '../../assets/json/heart.json';
 
 class RhinoSkin extends React.Component {
     constructor(props) {
@@ -46,7 +42,7 @@ class RhinoSkin extends React.Component {
 
 
                                 <div style={{ backgroundColor: '#fff', width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <img src={require('../../assets/img/rhino.png')}  style={{height:100}} />
+                                    <img src={require('../../assets/img/rhino.png')} alt='img' style={{height:100}} />
 
                                 </div>
 
@@ -97,34 +93,24 @@ about small problems like white marks on black clothes and yellow stains on whit
                                         </Row>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                                     </div>
-
-
-
-
 
 
                                 </div>
 
 
-
-
-
-
                             </div>
+
+                            <ScrollUpButton
+                                        StopPosition={0}
+                                        ShowAtPosition={150}
+                                        EasingType='easeOutCubic'
+                                        AnimationDuration={2000}
+                                        ContainerClassName='ScrollUpButton__Container'
+                                        TransitionClassName='ScrollUpButton__Toggled'
+                                        style={{ backgroundColor: 'rgba(46, 48, 49, 0.7)' }}
+                                        ToggledStyle={{}}
+                                    />
                             <Footer />
                         </div>
 

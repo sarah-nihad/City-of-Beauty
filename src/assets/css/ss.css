@@ -120,7 +120,7 @@ text-decoration: none;
 #perfume121{
     background-color:#fff;
     width: 80%;
-    height: 250px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -603,14 +603,86 @@ width: 32%;
 #nutre_divright{
     width: 50%;
 }
-
-
+#vest10{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 35px;
+    width: 60%;
+    color: rgb(153, 152, 155);
+}
 
  @media (max-width: 575.98px) { 
     #HomeAboutUSContiner {
         width: 100%;
         min-height: 50vw;
       
+    }
+    #vesta_backgroundimg {
+        background-attachment: local;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 160px;
+    }
+    #vest10{
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 30px;
+        width: 75%;
+        color: rgb(153, 152, 155);
+    }
+    .never_had_beforeangel{
+        padding: 80px 22px;
+        max-width: 450px;
+        clear: both;
+        margin-top: 180px;
+        position: relative;
+        bottom: -88px;
+        left: 0;
+    }
+    #angel_backgroundimg{
+background-size: contain;
+background-attachment:local;
+    }
+    .never_had_beforeangel div{
+        font-size: 12px;
+        line-height: 15px;
+        margin: 0;
+        width: 50%;
+    }
+    #derma_backgroundimg{
+        background-attachment: local;
+        background-position: center;
+        background-size: contain;
+        min-height: 300px;
+    }
+    #text_rhino {
+        position: absolute;
+        top: 250px;
+        width: 80%;
+        padding: 30px;
+        font-size: 10px;
+        line-height: 12px;
+  
+    }
+    #rhino1_backgroundimg{
+        background-size: cover;
+        min-height: 185px;
+        background-attachment: local;
+    }
+    .heading {
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    #perfume121 {
+width: 100%;
+    }
+    #OurProdectTitle1{
+        font-size: 25px;
+    }
+    #headerHomeContiner{
+        background-size: contain; 
+        background-position: top;
     }
     .main_service_image img {
         max-width: 100%;}
@@ -621,7 +693,10 @@ width: 32%;
         width: 100%;
     }
     #nutre_backgroundimg {
-        min-height: 100vw;
+        min-height: 55vw;
+    }
+    #nutre_backgroundimg {
+        background-attachment: initial;
     }
     .never_had_before div {
         font-size: 14px;
@@ -639,7 +714,7 @@ width: 32%;
         clear: both;
         margin-top: 180px;
         position: relative;
-        bottom: -88px;
+        bottom: 0px;
         left: 0px;
     }
     .bottom_image_box img {
@@ -664,13 +739,17 @@ width: 32%;
          width: 60vw;
      }
  
- 
+     #nano_backgroundimg {
+        background-attachment: initial;
+        min-height: 49vw;
+    }
     #OurProdectContiner_about{
 margin-bottom: 10%;
 
     }
     #ab_out{
         min-height: 150px;
+        background-position: initial;
     }
     #main_about1{
         margin-top: 30%;
@@ -718,9 +797,21 @@ width: 90%;
  }
 
  @media (min-width: 576px) and (max-width: 767.98px) { 
+    #text_rhino {
+        position: absolute;
+        top: 265px;
+        width: 80%;
+        padding: 30px;
+        font-size: 15px;
+        line-height: 20px;
+  
+    }
     #nutre_divright{
         width: 90%;
      }
+     #perfume121 {
+        width: 50%;
+            }
      #col_imgnutre{
          display: flex;
          flex-direction: column;
@@ -789,6 +880,15 @@ width: 90%;
  }
 
  @media (min-width: 768px) and (max-width: 991.98px) { 
+    #text_rhino {
+        position: absolute;
+        top: 270px;
+        width: 80%;
+        padding: 30px;
+        font-size: 20px;
+        line-height: 30px;
+  
+    }
      #amara_row{
          display: flex;
          flex-direction: column-reverse;
@@ -810,9 +910,7 @@ width: 90%;
         height: 40vw;
         width: 40vw;
     }
-    #ab_out{
-        /* min-height: 250px; */
-    }
+  
     #main_about1{
         margin-top: 15%;
     }
