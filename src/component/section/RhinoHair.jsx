@@ -67,12 +67,9 @@ class RhinoHair extends React.Component {
                            
                                         <Row style={{ marginRight: 0, width: '100%',marginBottom:'5%',marginTop:'8%' }}>
                                             <Col xs={12} md={7} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
-                                                <div className='heading mt20'>RHINO FULL REPAIR HAIR CARE MOUSSE</div>
+                                                <div className='heading mt20' style={{color:'#9dc973'}}  >RHINO FULL REPAIR HAIR CARE MOUSSE</div>
                                                 <div className='mt30'>SHINE EFFECT FOR ALL HAIR TYPE </div>
-                                                {/* <p className='mt10'>A soap free cleanser that provides safe, effective and
-                                                 gentle cleansing for all skin types in all
-                                                   skin conditions. This pH balanced cleanser will prevent essential oils and moisture being
-                                                        stripped from your skin while cleansing.</p> */}
+                                             
 
                                                   <div style={{width:'70%'}}>
                                                   <Panels benefit='Mousse-Relives and moisturines hair 

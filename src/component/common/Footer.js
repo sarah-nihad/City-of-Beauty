@@ -32,7 +32,7 @@ class Footer extends React.Component {
                                 <div>  <i className='fas fa-envelope' id="i2"></i>    <h6 id="h6">Email :</h6></div> 
       <p>mokhtar@cityofbeautyiq.com </p>
       <div> <i className="fa fa-clock-o" id="i2"></i> <h6 id="h6">Work days / Hours : </h6></div>
-      <p>Saturday - Thursday 10am to 6pm</p>
+      <p>Saturday - Thursday 9am to 6pm</p>
       </Col>
                                
                                

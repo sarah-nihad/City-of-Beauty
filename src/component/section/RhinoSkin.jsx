@@ -70,12 +70,9 @@ about small problems like white marks on black clothes and yellow stains on whit
                            
                                         <Row style={{ marginRight: 0, width: '100%',marginBottom:'5%',marginTop:'8%' }}>
                                             <Col xs={12} md={7} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
-                                                <div className='heading mt20'>RHINO STRENGTHENED FORMULATION</div>
+                                                <div className='heading mt20' style={{color:'#af0893'}}  >RHINO STRENGTHENED FORMULATION</div>
                                                 <div className='mt30'>48 HOURS ANTI-TRANSPIRANT </div>
-                                                {/* <p className='mt10'>A soap free cleanser that provides safe, effective and
-                                                 gentle cleansing for all skin types in all
-                                                   skin conditions. This pH balanced cleanser will prevent essential oils and moisture being
-                                                        stripped from your skin while cleansing.</p> */}
+                                            
 
                                                   <div style={{width:'70%'}}>
                                                   <Panels benefit='Anti-shivering and refreshing formula that eliminates sweat and odor leaving you confident and refreshed all day long.'

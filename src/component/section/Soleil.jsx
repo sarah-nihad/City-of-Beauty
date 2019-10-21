@@ -65,7 +65,7 @@ class Soleil extends React.Component {
 
                                         <Row style={{ marginRight: 0, width: '100%', marginBottom: '5%', marginTop: '8%' }}>
                                             <Col xs={12} md={7} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
-                                                <div className='heading mt20'>SOLEIL SUN SCREEN CREAM </div>
+                                                <div className='heading mt20' style={{color:'#fea505'}} >SOLEIL SUN SCREEN CREAM </div>
                                                 <div className='mt30'>FACE AND BODY VERY HIGH PROTECTION </div>
                                                 <p className='mt10'>Aqua, Laurus Nobills Leal
                                                 Olycerin Maris Aqua, Sodium Benoe

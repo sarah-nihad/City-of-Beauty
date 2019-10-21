@@ -65,7 +65,7 @@ class Dermavive extends React.Component {
                            
                                         <Row style={{ marginRight: 0, width: '100%',marginBottom:'5%',marginTop:'8%' }}>
                                             <Col xs={12} md={7} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
-                                                <div className='heading mt20'>DERMAVIVE HYDRA CLEANSER</div>
+                                                <div className='heading mt20' style={{color:'#249655'}}  >DERMAVIVE HYDRA CLEANSER</div>
                                                 <div className='mt30'>Soap free cleanser for all skin types </div>
                                                 <p className='mt10'>A soap free cleanser that provides safe, effective and
                                                  gentle cleansing for all skin types in all
