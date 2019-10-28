@@ -51,16 +51,17 @@ class About extends React.Component {
                                 <div >
 
                                     <div id='OurProdectContiner_about'  >
-                                        <p id='OurProdectTitle1'>Who We Are</p>
+                                    
                                         <Row style={{ display: 'flex', flexDirection: 'column', paddingLeft: '8%', width: '85%', marginRight: 0,marginBottom:'5%' }}  >
                                             <div style={{ width: '100%', borderLeft: '5px solid #EEEEEE', paddingLeft: '2%' }}  >
-                                                <div id='text_abouts' >City of Beauty(COB) is an Iraqi incorporated company that offers a wide range of branded genuine perfumes, skincare, haircare, and lenses to retails end consumers at greatly discounted prices. started with E-Commerce operation, 
-                                                by choosing top 10 Iraqi fashion bloggers and models to present our brands.</div>
+                                            <p id='OurProdectTitle1'  style={{paddingLeft:0,paddingTop:0}}   >Who We Are</p>
+                                                <div id='text_abouts' >City of Beauty(COB) is an Iraqi incorporated company that offers a wide range of branded genuine perfumes, skincare, haircare, and lenses to retails end consumers at greatly discounted prices. started with E-Commerce operation,
+                                                 by choosing the top 10 Iraqi fashion bloggers and models to present our brands.</div>
                      
 
                                                 <div id='text_abouts' style={{ paddingTop: '2%' }} >
-                                                City of Beauty (COB) has established the main outlet in Iraq, Baghdad since 2017, and has conducted many sale
-                                                 and roadshow in various shopping malls. Due to the modern marketing strategy by engaging marketing expert.     </div>
+                                                City of Beauty (COB) has established the main outlet in Iraq, Baghdad since 2017, and has conducted many sales and roadshows in various shopping malls.
+                                                 Due to the modern marketing strategy by engaging a marketing expert.         </div>
                                                  <p id='OurProdectTitle1' style={{paddingLeft:0}}  >Why Choose Us?</p>
 
                                                 <div id='text_abouts' style={{ paddingTop: '2%' }}  >
@@ -68,8 +69,8 @@ class About extends React.Component {
                                          </div>
 
                                                 <div id='text_abouts' style={{ paddingTop: '1%' }}  >
-                                                We are a genuine perfume, skincare, haircare, and lenses retailer that have work hard over the years to earn the trust and support from our customers. Currently, 
-                                                we have close to 7500 Instagram Followers.
+                                                We are a genuine perfume, skincare, haircare, and lens retailer that has work hard over the years to earn the trust and support from our customers. 
+                                                Currently, we have close to 7500 Instagram Followers.
                                          </div>
                                                 <div id='text_abouts' style={{ paddingTop: '1%' }}  >
                                                 We pride ourselves in delivering outstanding service to our customers, whether they choose to shop in one of 500 stores, or online over the phone our friendly team ready to help and guide the customer the perfect product.
@@ -84,19 +85,21 @@ class About extends React.Component {
                                     <div style={{ width: '100%' }} >
 
                                     <Row id='About_row' style={{
-                                            display: 'flex', backgroundColor: 'rgb(45, 48, 48)'
-                                            , marginRight: 0,marginBottom:50
+                                            display: 'flex'
+                                            , marginRight: 0,marginBottom:50,padding:'30px'
                                         }}  >
 
                                             <Col xs={12} md={6} id='about_col1' >
-                                                <div id='about_div1'style={{height:'auto'}} >
-                                                   <i className="fab fa-telegram-plane" style={{ fontSize: '60px', color: '#fff', lineHeight: '100px' }}  ></i>  
+                                                <div id='about_div1' >
+                                                   <i className="fab fa-telegram-plane" style={{ fontSize: '60px', color: 'rgb(166, 0, 35)', lineHeight: '100px' }}  ></i>  
                                                     <p style={{ fontSize: '30px', lineHeight: '40px' }}  >Our Mission</p>
-                                                    <div style={{ textAlign: 'center', padding: '10px' }} >
-                                                    To continuously grow our knowledge and experience in the application of beauty world, share creative solutions, 
-                                                    To develop cosmetic products that help costumer meet the highest quality standards
-                                                    To ensure the complete satisfaction and well-being of our clients, 
-                                                    introducing high-performance cosmetics and promoting innovation, maximum efficiency. 
+                                                    <div style={{ textAlign: 'center', padding: '25px' }} >
+                                                    To continuously grow our knowledge and experience in the application of the beauty world, share creative solutions, 
+
+To develop cosmetic products that help the customer meet the highest quality standards
+
+To ensure the complete satisfaction and well-being of our clients, introducing high-performance cosmetics and promoting innovation, maximum efficiency.
+
 
                                                         
                                                                     </div>
@@ -106,15 +109,16 @@ class About extends React.Component {
 
 
                                             <Col xs={12} md={6} id='about_col1' >
-                                                <div id='about_div1' style={{height:'auto'}} >
-                                                 <i className="far fa-eye" style={{ fontSize: '60px', color: '#fff', lineHeight: '100px' }}  ></i>  
+                                                <div id='about_div1' >
+                                                 <i className="far fa-eye" style={{ fontSize: '60px', color: 'rgb(166, 0, 35)', lineHeight: '100px' }}  ></i>  
                                                     <p style={{ fontSize: '30px', lineHeight: '40px' }}  >Our Vision</p>
-                                                    <div style={{ textAlign: 'center', padding: '10px' }} >
-                                                    	To be the most influential cosmetic company in middle east
-                                                        What drives us is sharing the knowledge to make great products getting greater .
-                                              To be a company recognized by the quality of our beauty products
-                                                            And women shine their beauty from inside out .
-                                                            	To be the obvious choice and preferred suppliers of top quality Beauty technology.                                                      
+                                                    <div style={{ textAlign: 'center', padding: '25px' }} >
+                                                  To be the most influential cosmetic company in middle east
+What drives us is sharing the knowledge to make great products getting greater.
+	To be a company recognized by the quality of our beauty products
+And women shine their beauty from inside out.
+To be the obvious choice and preferred suppliers of top quality Beauty technology.
+                                                     
 </div>
                                                 </div>
 
@@ -125,16 +129,19 @@ class About extends React.Component {
 
 
                                         <div id='OurProdectContiner_about'  >
-                                        <p id='OurProdectTitle1'>Youth Beauty is committed to showing you how to:</p>
+                                      
                                         <Row style={{ display: 'flex', flexDirection: 'column', paddingLeft: '8%', width: '85%', marginRight: 0 }}  >
-                                            <div style={{ width: '100%', borderLeft: '5px solid #EEEEEE', paddingLeft: '2%',paddingTop:'2%' }}  >
+     
+                                            <div style={{ width: '100%', borderLeft: '5px solid #EEEEEE', paddingLeft: '2%' }}  >
+                                            <p id='OurProdectTitle1' style={{paddingLeft:0,paddingTop:0}}   >Youth Beauty is committed to showing you how to:</p>
                                                 <div id='text_abouts' >Work Smarter - earning greater levels of income in a shorter period of time
-                                              Maximize the use of their employee resources
+Maximize the use of their employee resources
+
                                                                            </div>
                      
 
                                                 <div id='text_abouts' style={{ paddingTop: '1%' }} >
-                                                Create an unforgettable and compelling experience for customers with undisputable results.    </div>
+                                                Create an unforgettable and compelling experience for customers with indisputable results.    </div>
                                                 
                                                 
                                                  <p id='OurProdectTitle1' style={{paddingLeft:0}}  >Our Core Values</p>
@@ -147,7 +154,7 @@ class About extends React.Component {
                                                 We work hard to deliver excellence in everything we do 
                                          </div>
                                                 <div id='text_abouts' style={{ paddingTop: '1%' }}  >
-                                                We are always open to new brand that fits to our standards. 
+                                                We are always open to new brand that fits to our standards.
                                          </div>
                                             </div>
                                         </Row>
@@ -162,11 +169,10 @@ class About extends React.Component {
     <div style={{display:'flex',width:'100%',alignItems:'center',justifyContent:'center'}} id='colbout'  >
         <p style={{width:'68%'}} >
             
-Understanding the needs and wants of
- our customers is an ongoing and ever-changing process, our reliable and dedicated field
-  force are the key in this area. To ensure we cater to their needs and requirements, 
-  we are in regular touch with the medical fraternity, we have established a great team 
-  to handle excellent customer service.
+        Understanding the needs and wants of our customers is an ongoing and ever-changing process,
+         our reliable and dedicated field force are the key in this area. To ensure we cater to their needs and requirements,
+          we are in regular
+         touch with the medical fraternity, we have established a great team to handle excellent customer service.
 
         </p>
         <div style={{width:'20%',display:'flex',alignItems:'center',justifyContent:'center'}}  >
@@ -195,14 +201,15 @@ Understanding the needs and wants of
         <div style={{width:'68%'}} >
             <p>
             Since our establishment in 2017, Iraq has strived to make products that make the skin happy because we believe healthy skin is happy skin.
-We believe skincare product of creative freedom.
+We believe skincare products of creative freedom.
+
 
             </p>
-            <p>The products that we choose are made with a purpose in mind, solving real needs for both patient and dermatologist. For the patients, the products are easy to use and are gentle to the skin but effective on the problem. For the dermatologist,
+            <p>The products that we choose are made with a purpose in mind, solving real needs for both patients and dermatologists. For the patients, the products are easy to use and are gentle to the skin but effective on the problem. For the dermatologist,
                  the products we focus on have non-toxic ingredients and are safe formulations that will cause no side effects.</p>
             
-<p>The products that we choose are made with a purpose in mind, solving real needs for both patient and dermatologist. For the patients, the products are easy to use and are gentle to the skin but effective on the problem. For the dermatologist, the products we focus on have non-toxic 
-    ingredients and are safe formulations that will cause no side effects.</p>
+<p>The products that we carry solve real needs for both patients and dermatologist which leads
+     to high patient satisfaction.</p>
 
         </div>
      
@@ -222,10 +229,8 @@ We believe skincare product of creative freedom.
 
     <div style={{display:'flex',width:'100%',alignItems:'center',justifyContent:'center'}} id='colbout'  >
         <p style={{width:'68%'}} >
-        We've searched high and low for the best hair care products on the market to make sure that every day is 
-        a good hair day. Our hair has to deal with a lot... The sun, colouring, and styling. Choosing a range of 
-        haircare products will
-         help restore the hair’s natural health and the variety of brands that we carry a must-have product!
+        We've searched high and low for the best hair care products on the market to make sure that every day is a good hair day. Our hair has to deal with a lot... The sun, coloring, and styling. Choosing a range of hair care
+         products will help restore the hair’s natural health and the variety of brands that we carry a must-have product!
 
         </p>
         <div style={{width:'20%',display:'flex',alignItems:'center',justifyContent:'center'}}  >
@@ -252,8 +257,9 @@ We believe skincare product of creative freedom.
         </div>
         <p style={{width:'68%'}} >
         Comfort & Quality  
-When we talk about leases we are talking about one of the exotic product in fusion world 
-(COB) select brands over the top and gain costumer trust 
+        When we talk about lenses we are talking about one of the exotic product in the fashion world 
+(COB) select brands over the top and gain customer trust.   
+
 
 
         </p>

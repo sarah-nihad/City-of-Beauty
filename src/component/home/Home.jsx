@@ -569,7 +569,7 @@ class Home extends React.Component {
                                                 {matches => (
                                                     <React.Fragment>
                                                         {matches.small &&
-                                                            <div style={{ width: '100%' }} >
+                                                            <div style={{ width: '100%',paddingTop:'3%',paddingBottom:'3%' }} >
                                                                 <Carousel
                                                                     addArrowClickHandler
                                                                     slidesPerPage={1}
@@ -694,7 +694,7 @@ class Home extends React.Component {
                                                         }
 
                                                         {matches.medium &&
-                                                            <div style={{ width: '100%' }} >
+                                                            <div style={{ width: '100%',paddingTop:'3%',paddingBottom:'3%' }} >
                                                                 <Carousel
                                                                     addArrowClickHandler
                                                                     slidesPerPage={2}
@@ -821,7 +821,7 @@ class Home extends React.Component {
                                                         }
 
                                                         {matches.large &&
-                                                            <div style={{ width: '100%' }} >
+                                                            <div style={{ width: '100%',paddingTop:'3%',paddingBottom:'3%' }} >
                                                                 <Carousel
                                                                     addArrowClickHandler
                                                                     slidesPerPage={4}

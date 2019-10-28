@@ -15,7 +15,7 @@ class Footer extends React.Component {
             <Context.Consumer>
                 {ctx => {
                     return (
-                        <div>
+                        <div style={{backgroundColor:'#221a1c'}} >
                             <Row id='RowFooter'>
                                 <Col id='ColFooter' sm={12} lg={5}>
                                 <div>   <i className="fas fa-map-marker-alt" id="i2"></i>
@@ -37,14 +37,6 @@ class Footer extends React.Component {
                                
                                
                                
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
                                 <Col id='ColFooter' sm={12} lg={3}>
                                     {/* <p>Quick Links</p>
                                     <div style={{ backgroundColor: '#fff', height: 2, width: 120,marginBottom:15 }} /> */}
@@ -55,7 +47,7 @@ class Footer extends React.Component {
                                 
                                 </Col>
                             </Row>
-                            <div id='lineBetweenFooter' />
+                          
                             <Row id='RowFooterSecond'>
                                 <Col id='ColFooterSecond1' sm={12} md={6}>© 2019 City of Beauty . All rights reserved  </Col>
                                 <Col id='ColFooterSecond2' sm={12} md={6}>
@@ -65,8 +57,12 @@ class Footer extends React.Component {
                                 </Col>
                             </Row>
                             <Row id='RowFooterSecond' style={{display:'flex',alignItems:'center',justifyContent:'center'}} >
-                          <a href='https://www.croczi.com/' style={{color:'gray',textDecoration:'none'}} > Powerd By Croczi.com</a> 
+                          <a href='https://www.croczi.com/' style={{color:'gray',textDecoration:'none'}} > Powered By Croczi.com</a> 
                             </Row>
+
+
+
+
                         </div>
                     )
                 }}
