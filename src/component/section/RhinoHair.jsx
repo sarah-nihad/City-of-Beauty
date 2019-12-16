@@ -93,7 +93,7 @@ class RhinoHair extends React.Component {
                                             </Col>
 
                                             <Col xs={12} md={5}>
-                                                <img src={require('../../assets/img/rhino.JPG')} alt='img' style={{width:'100%'}} />
+                                                <img src={require('../../assets/img/rhino1.png')} alt='img' style={{width:'100%'}} />
                                             </Col>
 
                                         </Row>

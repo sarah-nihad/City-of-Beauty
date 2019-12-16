@@ -93,7 +93,7 @@ color cast while maintaining a radiant skin.' />
                                             </Col>
 
                                             <Col xs={12} md={5}>
-                                                <img src={require('../../assets/img/sol.jpg')} alt='img' style={{width:'100%'}} />
+                                                <img src={require('../../assets/img/sol.png')} alt='img' style={{width:'100%'}} />
                                             </Col>
 
                                         </Row>
@@ -116,7 +116,7 @@ color cast while maintaining a radiant skin.' />
                                             </Col>
 
                                             <Col xs={12} md={5}>
-                                                <img src={require('../../assets/img/solmst.jpg')} alt='img' style={{width:'100%'}} />
+                                                <img src={require('../../assets/img/sara.png')} alt='img' style={{width:'100%'}} />
                                             </Col>
 
                                         </Row>

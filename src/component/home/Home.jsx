@@ -200,15 +200,11 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel10.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel9.jpg')} alt='img' />
-                                                                    </div>
+                                                                 
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel4.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel5.jpg')} alt='img' />
-                                                                    </div>
+                                                                   
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel6.jpg')} alt='img' />
                                                                     </div>
@@ -224,25 +220,15 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel11.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel12.jpg')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel13.jpg')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/rhino.JPG')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel14.jpg')} alt='img' />
-                                                                    </div>
+                                                                 
+                                                                    
+                                                                 
+                                                                 
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
                                                                     </div>
 
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/roll1.jpg')} alt='img' />
-                                                                    </div>
+                                                                 
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/roll3.jpg')} alt='img' />
                                                                     </div>
@@ -258,9 +244,7 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/nano.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
-                                                                    </div>
+                                                                
                                                                   
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/nano2.jpg')} alt='img' />
@@ -316,15 +300,11 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel10.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel9.jpg')} alt='img' />
-                                                                    </div>
+                                                                
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel4.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel5.jpg')} alt='img' />
-                                                                    </div>
+                                                                
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel6.jpg')} alt='img' />
                                                                     </div>
@@ -340,25 +320,15 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel11.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel12.jpg')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel13.jpg')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/rhino.JPG')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel14.jpg')} alt='img' />
-                                                                    </div>
+                                                                
+                                                                 
+                                                                 
+                                                                 
 
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/roll1.jpg')} alt='img' />
-                                                                    </div>
+                                                                
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/roll3.jpg')} alt='img' />
                                                                     </div>
@@ -374,9 +344,7 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/nano.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
-                                                                    </div>
+                                                                
                                                                   
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/nano2.jpg')} alt='img' />
@@ -431,15 +399,11 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel10.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel9.jpg')} alt='img' />
-                                                                    </div>
+                                                                
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel4.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel5.jpg')} alt='img' />
-                                                                    </div>
+                                                                
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel6.jpg')} alt='img' />
                                                                     </div>
@@ -455,25 +419,15 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/angel11.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel12.jpg')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel13.jpg')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/rhino.JPG')} alt='img' />
-                                                                    </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/angel14.jpg')} alt='img' />
-                                                                    </div>
+                                                                    
+                                                                   
+                                                                  
+                                                                  
 
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/dermaviv1.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/roll1.jpg')} alt='img' />
-                                                                    </div>
+                                                               
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/roll3.jpg')} alt='img' />
                                                                     </div>
@@ -489,9 +443,7 @@ class Home extends React.Component {
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/nano.jpg')} alt='img' />
                                                                     </div>
-                                                                    <div style={{ backgroundColor: '#fff' }} id='perfume1' >
-                                                                        <img id='slid_img' src={require('../../assets/img/solmst.jpg')} alt='img' />
-                                                                    </div>
+                                                                   
                                                                 
                                                                     <div style={{ backgroundColor: '#fff' }} id='perfume1' >
                                                                         <img id='slid_img' src={require('../../assets/img/nano2.jpg')} alt='img' />

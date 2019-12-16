@@ -31,10 +31,9 @@ class Contact extends React.Component {
   send() {
 
 
-    axios.post(`https://api.almayariq.com/auth/sendEmail`, {
-      'to': 'emperor.rasheed@gmail.com',
+    axios.post(`https://cityofbeautyiq.com/sendEmail`, {
+      'to':this.state.to,
       'body': this.state.body,
-      'subject': this.state.subject
     })
 
       .then(response => {
