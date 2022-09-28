@@ -13,7 +13,7 @@ import'./assets/css/common.css';
 import'./assets/css/ss.css';
 import'./assets/css/task.css';
 
-
+import test1 from './component/home/test1';
 import Skin from './component/section/Skin';
 import Admin from './component/common/Admin';
 import Lenses from './component/section/Lenses';
@@ -79,6 +79,7 @@ auth:''
           <Route path ='/Soleil' component={Soleil} />  
           <Route path ='/Nano' component={Nano} /> 
           <Route path ='/Perfume' component={Perfume} />  
+          <Route path ='/test1' component={test1} />  
             {/* </ScrollToTop> */}
            <Switch>
          

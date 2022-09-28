@@ -223,7 +223,8 @@ transitionTimingFunction: 'linear',
                     <article className={classes.MenuBTNNavContiner}>
                         <span className={classes.spann} id='abou_sh' > <Link to='/'>   Home </Link>   </span>
                         <span className={classes.spann} id='abou_sh' > <Link to='/About'> About Us </Link>   </span>
-                        <span className={classes.spann}> <div className="dropdown"  >Category 
+                        <span className={classes.spann}> 
+                        <div className="dropdown"  >Category 
                         <div className="dropdown-content">
                           <div id='Bt_link' > <Link to='/Hair'>   Hair Care </Link>   </div>
                           <div id='Bt_link' >  <Link to='/Skin'>    Skin Care   </Link>  </div>
@@ -231,7 +232,8 @@ transitionTimingFunction: 'linear',
                           <div id='Bt_link' >  <Link to='/Lenses'>   Contact lenses  </Link>  </div>
                         </div>
                         
-                         </div> </span>
+                         </div>
+                          </span>
                     
                    
                         <span className={classes.spann}  id='abou_sh' ><Link to='/Contact' > Contact Us </Link>  </span>

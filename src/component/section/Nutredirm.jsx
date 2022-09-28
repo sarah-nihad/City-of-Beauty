@@ -34,12 +34,14 @@ class Nutredirm extends React.Component {
                 {ctx => {
               
                     return (
+                        <div onLoad={this.handleLoad} id='min1_home1' >
+                        <div  id='mainCont1' >
                         <div id='mainEquContiner_cate'  >
                             <div id='apfot'>
                                 <Nav2 />
 
 
-                                <div style={{ width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px',display:'flex',alignItems:'center',justifyContent:'center' }}>
+                                <div style={{ width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px',display:'flex',alignItems:'center',justifyContent:'center',backgroundColor:'#fff' }}>
                                     <img src={require('../../assets/img/nutre_logo.jpg')} alt='img' />
 
                                 </div>
@@ -194,7 +196,7 @@ class Nutredirm extends React.Component {
                                     />
                             <Footer />
                         </div>
-
+</div></div>
 
 
                     )

@@ -70,7 +70,9 @@ export default function SpringModal(props) {
 
     return (
         <div>
-            <div onClick={handleOpen} id='quik' >Quick View</div>
+            <div onClick={handleOpen} id='quik' >
+               <img src={require('../../assets/img/eye.png')} style={{height:30}} alt='img'  />
+            </div>
             <Modal
                 aria-labelledby="spring-modal-title"
                 aria-describedby="spring-modal-description"

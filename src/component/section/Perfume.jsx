@@ -36,6 +36,8 @@ class Perfume extends React.Component {
                 {ctx => {
                 
                     return (
+                        <div onLoad={this.handleLoad} id='min1_home1' >
+                        <div  id='mainCont1' >
                         <div id='mainEquContiner_cate'  >
                             <div id='apfot'>
                                 <Nav2 />
@@ -130,7 +132,7 @@ class Perfume extends React.Component {
                                     />
                             <Footer />
                         </div>
-
+</div></div>
 
 
                     )

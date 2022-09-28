@@ -38,12 +38,14 @@ class Nano extends React.Component {
                 {ctx => {
                     //    if (ctx.value.auth ==='lgoin' ||  ctx.value.auth ==='notlogin' ){
                     return (
+                        <div onLoad={this.handleLoad} id='min1_home1' >
+                        <div  id='mainCont1' >
                         <div id='mainEquContiner_cate'  >
                             <div id='apfot'>
                                 <Nav2 />
 
 
-                                <div style={{ width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <div style={{ width: '100%', boxShadow: '#e0ddddd6 2px 5px 6px 1px', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center',backgroundColor:'#fff' }}>
                                     <img src={require('../../assets/img/4.png')} style={{height:'130px'}}  alt='img' />
 
                                 </div>
@@ -51,30 +53,16 @@ class Nano extends React.Component {
 
 
                                 <div id='section1_s'>
-
-
-
-
-
-
                                     <div id='OurProdectContiners1'>
-
-
                                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '100%' }}>
-
                                         </div>
-                                        <div style={{ width: '100%' }} id='nano_backgroundimg' >
-                                   
+                                        <div style={{ width: '100%' }} id='nano_backgroundimg' >                                   
                                         </div>
 
                           
 
                                         <Row id='RowOurProdect' style={{ marginTop: '5%', marginRight: 0 }} >
-
-                                            <Col id='ColOurProdect' md={6} lg={4} xl={3}
-
-                                            >
-                
+                                            <Col id='ColOurProdect' md={6} lg={4} xl={3}>               
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
                                                     <img src={require('../../assets/img/nano.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
                                                     <div style={{ position: 'absolute' }} >
@@ -144,9 +132,7 @@ class Nano extends React.Component {
                          
                                       
                                 
-                                            <Col id='ColOurProdect' md={6} lg={4} xl={3}
-
->
+                                            <Col id='ColOurProdect' md={6} lg={4} xl={3}>
 
     <div style={{ backgroundColor: '#fff' }} id='perfume121' >
         <img src={require('../../assets/img/eye.jpg')} alt='img' style={{ position: 'relative', width: '100%' }} />
@@ -253,16 +239,6 @@ class Nano extends React.Component {
 
 </Col>
                                  
-                                     
-                                     
-                                   
-                                  
-
-
-
-
-
-
 
                                         </Row>
 
@@ -295,7 +271,7 @@ class Nano extends React.Component {
                                     />
                             <Footer />
                         </div>
-
+</div></div>
 
 
                     )

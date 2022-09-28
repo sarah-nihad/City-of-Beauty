@@ -38,6 +38,8 @@ class RhinoHair extends React.Component {
                 {ctx => {
                     //    if (ctx.value.auth ==='lgoin' ||  ctx.value.auth ==='notlogin' ){
                     return (
+                        <div onLoad={this.handleLoad} id='min1_home1' >
+                        <div  id='mainCont1' >
                         <div id='mainEquContiner_cate'  >
                             <div id='apfot'>
                                 <Nav2 />
@@ -134,7 +136,7 @@ class RhinoHair extends React.Component {
                                     />
                             <Footer />
                         </div>
-
+</div></div>
 
 
                     )

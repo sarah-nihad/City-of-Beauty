@@ -36,6 +36,8 @@ class RhinoSkin extends React.Component {
                 {ctx => {
                     //    if (ctx.value.auth ==='lgoin' ||  ctx.value.auth ==='notlogin' ){
                     return (
+                        <div onLoad={this.handleLoad} id='min1_home1' >
+                        <div  id='mainCont1' >
                         <div id='mainEquContiner_cate'  >
                             <div id='apfot'>
                                 <Nav2 />
@@ -110,7 +112,7 @@ about small problems like white marks on black clothes and yellow stains on whit
                                     />
                             <Footer />
                         </div>
-
+</div></div>
 
 
                     )

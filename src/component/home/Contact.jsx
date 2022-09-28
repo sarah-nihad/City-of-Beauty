@@ -3,52 +3,33 @@ import Context from '../../assets/js/Context';
 import Nav2 from '../common/Nav2';
 import { withController } from 'react-scroll-parallax';
 import { Row, Col } from 'react-bootstrap';
-
 import Footer from '../common/Footer';
 import { TextInput, Textarea } from 'evergreen-ui';
-
-
-import axios from 'axios';
-
-import { ToastContainer, toast } from 'react-toastify';
+// import axios from 'axios';
+import { ToastContainer,  } from 'react-toastify';
 class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       subject: '',
       body: '',
-      to: ''
+      to: '',
+      data:[]
     }
-
-
   }
 
 
-
-
-
-
   send() {
-
-
-    axios.post(`https://cityofbeautyiq.com/sendEmail`, {
-      'to':this.state.to,
-      'body': this.state.body,
-    })
-
-      .then(response => {
-
-        console.log(response.data);
-        toast.success('Email has been send successfully');
-      })
-      .catch(function (message) {
-
-
-      });
-
-
-  
-
+    // axios.post(`http://localhost:5000/sendEmail`, {
+    //   'to':this.state.to,
+    //   'body': this.state.body,
+    // })
+    //   .then(response => {
+    //     console.log(response.data);
+    //     toast.success('Email has been send successfully');
+    //   })
+    //   .catch(function (message) {
+    //   });
   }
 
   handleLoad = () => {
@@ -60,6 +41,8 @@ class Contact extends React.Component {
         {ctx => {
         
             return (
+              <div  id='min1_home1' >
+              <div  id='mainCont1' >
               <div>
                 <ToastContainer
                   position="top-center"
@@ -177,11 +160,10 @@ class Contact extends React.Component {
 
 
 
-
                 </div>
                 <Footer />
               </div>
-
+</div></div>
 
 
             )

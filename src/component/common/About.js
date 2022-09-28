@@ -25,7 +25,9 @@ class About extends React.Component {
                 {ctx => {
                 
                     return (
-                        <div  >
+                        <div  id='min1_home1' >
+                        <div  id='mainCont1' >
+                        <div style={{backgroundColor:'#fff'}} >
                             <div  >
 
 
@@ -36,13 +38,12 @@ class About extends React.Component {
                                     paddingBottom: '5%', width: '100%', display: 'flex', alignItems: 'center',
                                     justifyContent: 'center', flexDirection: 'column',
                                 }}  >
-                                    <div  id='ab_out' style={{
-                                        marginTop: '2%', height: '100px', width: '85%', color: '#A60023', borderRadius: '10px',lineHeight:'40px'
+                                    <div  id='ab_out' style={{marginTop: '2%', height: '100px', width: '85%', color: '#A60023', borderRadius: '10px',lineHeight:'40px'
                                        ,fontSize: '40px', fontWeight: '600', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                                        // backgroundColor: '#00bcd1',
-                                    }}  >
+                                        fontFamily:'Playball'
+                                      }}  >
                                         ABOUT US
-</div>
+                                     </div>
 
 
                                 </div>
@@ -54,7 +55,7 @@ class About extends React.Component {
                                     
                                         <Row style={{ display: 'flex', flexDirection: 'column', paddingLeft: '8%', width: '85%', marginRight: 0,marginBottom:'5%' }}  >
                                             <div style={{ width: '100%', borderLeft: '5px solid #EEEEEE', paddingLeft: '2%' }}  >
-                                            <p id='OurProdectTitle1'  style={{paddingLeft:0,paddingTop:0}}   >Who We Are</p>
+                                            <p id='OurProdectTitle1'  style={{paddingLeft:0,paddingTop:0,fontFamily:'Playball'}}   >Who We Are</p>
                                                 <div id='text_abouts' >City of Beauty(COB) is an Iraqi incorporated company that offers a wide range of branded genuine perfumes, skincare, haircare, and lenses to retails end consumers at greatly discounted prices. started with E-Commerce operation,
                                                  by choosing the top 10 Iraqi fashion bloggers and models to present our brands.</div>
                      
@@ -62,7 +63,7 @@ class About extends React.Component {
                                                 <div id='text_abouts' style={{ paddingTop: '2%' }} >
                                                 City of Beauty (COB) has established the main outlet in Iraq, Baghdad since 2017, and has conducted many sales and roadshows in various shopping malls.
                                                  Due to the modern marketing strategy by engaging a marketing expert.         </div>
-                                                 <p id='OurProdectTitle1' style={{paddingLeft:0}}  >Why Choose Us?</p>
+                                                 <p id='OurProdectTitle1' style={{paddingLeft:0,fontFamily:'Playball'}}  >Why Choose Us?</p>
 
                                                 <div id='text_abouts' style={{ paddingTop: '2%' }}  >
                                                 City of Beauty(COB), we only deliver 100% authentic perfumes، skincare & cosmetics to our customers. 
@@ -92,18 +93,18 @@ class About extends React.Component {
                                             <Col xs={12} md={6} id='about_col1' >
                                                 <div id='about_div1' >
                                                    <i className="fab fa-telegram-plane" style={{ fontSize: '60px', color: 'rgb(166, 0, 35)', lineHeight: '100px' }}  ></i>  
-                                                    <p style={{ fontSize: '30px', lineHeight: '40px' }}  >Our Mission</p>
+                                                    <p style={{ fontSize: '30px', lineHeight: '40px',fontFamily:'Playball' }}  >Our Mission</p>
                                                     <div style={{ textAlign: 'center', padding: '25px' }} >
-                                                    To continuously grow our knowledge and experience in the application of the beauty world, share creative solutions, 
+                                                      To continuously grow our knowledge and experience in the application of the beauty world, share creative solutions, 
 
-To develop cosmetic products that help the customer meet the highest quality standards
+                                                      To develop cosmetic products that help the customer meet the highest quality standards
 
-To ensure the complete satisfaction and well-being of our clients, introducing high-performance cosmetics and promoting innovation, maximum efficiency.
+                                                      To ensure the complete satisfaction and well-being of our clients, introducing high-performance cosmetics and promoting innovation, maximum efficiency.
 
 
                                                         
-                                                                    </div>
-                                                       </div>
+                                                    </div>
+                                                </div>
 
                                                       </Col>
 
@@ -111,15 +112,15 @@ To ensure the complete satisfaction and well-being of our clients, introducing h
                                             <Col xs={12} md={6} id='about_col1' >
                                                 <div id='about_div1' >
                                                  <i className="far fa-eye" style={{ fontSize: '60px', color: 'rgb(166, 0, 35)', lineHeight: '100px' }}  ></i>  
-                                                    <p style={{ fontSize: '30px', lineHeight: '40px' }}  >Our Vision</p>
+                                                    <p style={{ fontSize: '30px', lineHeight: '40px' ,fontFamily:'Playball'}}  >Our Vision</p>
                                                     <div style={{ textAlign: 'center', padding: '25px' }} >
                                                   To be the most influential cosmetic company in middle east
-What drives us is sharing the knowledge to make great products getting greater.
-	To be a company recognized by the quality of our beauty products
-And women shine their beauty from inside out.
-To be the obvious choice and preferred suppliers of top quality Beauty technology.
+                                                  What drives us is sharing the knowledge to make great products getting greater.
+	                                              To be a company recognized by the quality of our beauty products
+                                                  And women shine their beauty from inside out.
+                                                  To be the obvious choice and preferred suppliers of top quality Beauty technology.
                                                      
-</div>
+                                                </div>
                                                 </div>
 
                                             </Col>
@@ -133,7 +134,7 @@ To be the obvious choice and preferred suppliers of top quality Beauty technolog
                                         <Row style={{ display: 'flex', flexDirection: 'column', paddingLeft: '8%', width: '85%', marginRight: 0 }}  >
      
                                             <div style={{ width: '100%', borderLeft: '5px solid #EEEEEE', paddingLeft: '2%' }}  >
-                                            <p id='OurProdectTitle1' style={{paddingLeft:0,paddingTop:0}}   >Youth Beauty is committed to showing you how to:</p>
+                                            <p id='OurProdectTitle1' style={{paddingLeft:0,paddingTop:0,fontFamily:'Playball'}}   >Youth Beauty is committed to showing you how to:</p>
                                                 <div id='text_abouts' >Work Smarter - earning greater levels of income in a shorter period of time
 Maximize the use of their employee resources
 
@@ -144,7 +145,7 @@ Maximize the use of their employee resources
                                                 Create an unforgettable and compelling experience for customers with indisputable results.    </div>
                                                 
                                                 
-                                                 <p id='OurProdectTitle1' style={{paddingLeft:0}}  >Our Core Values</p>
+                                                 <p id='OurProdectTitle1' style={{paddingLeft:0,fontFamily:'Playball'}}  >Our Core Values</p>
 
                                                 <div id='text_abouts' style={{ paddingTop: '2%' }}  >
                                                 We have a passion for providing our customers with the very best products, 
@@ -162,8 +163,8 @@ Maximize the use of their employee resources
 
 <div style={{width:'100%',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}} >
     <div style={{color:'#A60023',textAlign:'center',fontWeight:'500',fontSize:'30px'}} >
-    <p>SUCSESS FACTOR </p>
-    <p>FOCUS ON SERVICE & RESULTS</p>
+    <p style={{fontFamily:'Playball'}} >SUCSESS FACTOR </p>
+    <p style={{fontFamily:'Playball'}} >FOCUS ON SERVICE & RESULTS</p>
     </div>
 
     <div style={{display:'flex',width:'100%',alignItems:'center',justifyContent:'center'}} id='colbout'  >
@@ -188,8 +189,8 @@ Maximize the use of their employee resources
 
 <div style={{width:'100%',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}} >
     <div style={{color:'#A60023',textAlign:'center',fontWeight:'500',fontSize:'30px'}} >
-    <p>ONE OF OUR STRENGTH AND OUR PASSION</p>
-    <p>SKIN</p>
+    <p style={{fontFamily:'Playball'}} >ONE OF OUR STRENGTH AND OUR PASSION</p>
+    <p style={{fontFamily:'Playball'}}>SKIN</p>
     </div>
 
     <div style={{display:'flex',width:'100%',alignItems:'center',justifyContent:'center'}} id='colbout'  >
@@ -223,7 +224,7 @@ We believe skincare products of creative freedom.
 
 <div style={{width:'100%',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}} >
     <div style={{color:'#A60023',textAlign:'center',fontWeight:'500',fontSize:'30px'}} >
-    <p>HAIR </p>
+    <p style={{fontFamily:'Playball'}}>HAIR </p>
 
     </div>
 
@@ -247,7 +248,7 @@ We believe skincare products of creative freedom.
 
 <div style={{width:'100%',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}} >
     <div style={{color:'#A60023',textAlign:'center',fontWeight:'500',fontSize:'30px'}} >
-    <p>CONTAC LEANSE </p>
+    <p style={{fontFamily:'Playball'}}>CONTAC LEANSE </p>
 
     </div>
    
@@ -273,7 +274,7 @@ We believe skincare products of creative freedom.
 
 <div style={{width:'100%',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',marginBottom:'5%'}} >
     <div style={{color:'#A60023',textAlign:'center',fontWeight:'500',fontSize:'30px'}} >
-    <p>Perfume </p>
+    <p style={{fontFamily:'Playball'}}>Perfume </p>
 
     </div>
 
@@ -323,7 +324,7 @@ We believe skincare products of creative freedom.
 
                             </div>
 
-
+</div></div>
                         </div>
                     )
 

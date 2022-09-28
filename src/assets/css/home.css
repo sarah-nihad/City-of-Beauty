@@ -7,11 +7,57 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#min1_home1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+}
+#mainCont1{
+    max-width: 1800px;
+    width: 100%;
+}
+#amara_text{
+    font-family:'Playball';
+}
 #video_text{
     font-size: 55px;
     font-weight: 500;
     line-height: 40px;
+    font-family: 'Playball', cursive;
+}
+
+.rd-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.vide, .rd-video_cnt {
+    padding: 50px 0;
+}
+
+#player{
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: -232.016px;
+}
+.rd-video{
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+}
+.video > div {
+    padding: 10% 0 10.8%;
+    text-align: center;
+    color: #fff;
 }
 
 #upNavBar {
@@ -322,18 +368,21 @@ min-height: 500px;
             
             }
 #angel_backgroundimg{
-    background-image: url(../img/angel.jpg);
+    background-image: url(../img/kok.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     
     }
 
 #text_rhino{
     position: absolute;
-  
+  font-family:'Playball';
     top: 300px;
     width: 60%;
     padding: 50px;
@@ -642,7 +691,7 @@ min-height: 500px;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     background-color: #A60023;
     cursor: pointer;
@@ -660,6 +709,7 @@ min-height: 500px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Playball', cursive;
 }
 #Bt_link:hover {
     border: 2px solid #A60023;
@@ -914,14 +964,13 @@ background-color: #fff;
             #maintext_vid{
                 bottom: 180px;
             }
-            #video_mindiv{
-                height: 680px;
-            }
+         
             #img_rifht {
                 height: 490px;
             }
         }
 @media screen and (max-width: 1100px) {
+  
     #img_rifht{
         height: 450px;
     }
@@ -991,8 +1040,27 @@ background-color: #fff;
   
 
 }
-
+@media screen and (min-width: 769px) {
+.AngelContentmain{
+    width: 80%;
+    margin-top: 2%;
+    display: flex;
+}
+}
 @media screen and (max-width: 768px) {
+    .AngelContentmain{
+        width: 100%;
+        scroll-behavior: auto;
+        margin-top: 2%;
+        display: flex;
+    }
+    .rightSideAngel{
+        /* height: 300px; */
+        width: 100%;
+    }
+    .leftSideAngel{
+        width: 100%;
+    }
     #video_mindiv{
         height: 400px;
     }
@@ -1115,9 +1183,15 @@ width: 35vw;
         font-size: 14px;
     }
 }
-
+@media screen and (max-width: 600px) {
+#player{
+    top:-48.016px;
+}
+}
 @media screen and (max-width: 500px) {
-
+#player{
+    top:-48.016px;
+}
     #video_mindiv{
         height: 250px;
     }

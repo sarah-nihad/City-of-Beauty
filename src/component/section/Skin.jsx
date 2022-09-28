@@ -36,27 +36,13 @@ class Skin extends React.Component {
                 {ctx => {
                     //    if (ctx.value.auth ==='lgoin' ||  ctx.value.auth ==='notlogin' ){
                     return (
+                        <div onLoad={this.handleLoad} id='min1_home1' >
+                        <div  id='mainCont1' >
                         <div id='mainEquContiner_cate'  >
                             <div id='apfot'>
                                 <Nav2 />
-
-
-
-
-
-
                                 <div id='section1_s'>
-
-
-
-
-
-
                                     <div id='OurProdectContiners1'>
-
-
-
-
                                         <Row id='RowOurProdect' style={{ marginTop: '5%' }} >
 
                                             <Col id='ColOurProdect' md={6} lg={4} xl={3} >
@@ -72,16 +58,12 @@ class Skin extends React.Component {
 
                                                 <div style={{ backgroundColor: '#E4A258' }} id='perfume121' >
                                                     <Link to='/Dermavive' style={{display:'flex',justifyContent:'center'}} ><img src={require('../../assets/img/derma_logo.jpg')} alt='img' style={{ position: 'relative', width: '90%' }} /></Link>
-
                                                 </div>
-
                                             </Col>
 
                                             <Col id='ColOurProdect' md={6} lg={4} xl={3} >
-
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
-                                                    <Link to='/Soleil' style={{display:'flex',justifyContent:'center'}} ><img src={require('../../assets/img/6.png')} alt='img' style={{ position: 'relative', width: '90%', }} /></Link>
-
+                                                    <Link to='/Soleil' style={{display:'flex',justifyContent:'center'}} ><img src={require('../../assets/img/6.png')} alt='img' style={{ position: 'relative', height:150}} /></Link>
                                                 </div>
 
                                             </Col>
@@ -90,32 +72,15 @@ class Skin extends React.Component {
 
                                                 <div style={{ backgroundColor: '#fff' }} id='perfume121' >
                                                     <Link to='/RhinoSkin' style={{display:'flex',justifyContent:'center'}} ><img src={require('../../assets/img/rhino.png')} alt='img' style={{ position: 'relative', width: '90%', }} /></Link>
-
                                                 </div>
-
                                             </Col>
-
-
-
-
                                         </Row>
                                     </div>
-
-
-
-
-
                                 </div>
-
-
-
-
-
-
                             </div>
                             <Footer />
                         </div>
-
+</div></div>
 
 
                     )

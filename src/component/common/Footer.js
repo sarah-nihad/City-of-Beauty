@@ -30,7 +30,7 @@ class Footer extends React.Component {
                               
                                 <Col id='ColFooter' sm={12} lg={4}>    
                                 <div>  <i className='fas fa-envelope' id="i2"></i>    <h6 id="h6">Email :</h6></div> 
-      <p>mokhtar@cityofbeautyiq.com </p>
+      <p>Mokhtar.Obaidy@gmail.com </p>
       <div> <i className="fa fa-clock-o" id="i2"></i> <h6 id="h6">Work days / Hours : </h6></div>
       <p>Saturday - Thursday 9am to 6pm</p>
       </Col>
@@ -56,9 +56,9 @@ class Footer extends React.Component {
                                   <a href='https://instagram.com/city_of_beautyiq?igshid=13cvyt6fdyv3f'>  <i className="fab fa-instagram" id='IconHomeUP'></i></a>
                                 </Col>
                             </Row>
-                            <Row id='RowFooterSecond' style={{display:'flex',alignItems:'center',justifyContent:'center'}} >
+                            {/* <Row id='RowFooterSecond' style={{display:'flex',alignItems:'center',justifyContent:'center'}} >
                           <a href='https://www.croczi.com/' style={{color:'gray',textDecoration:'none'}} > Powered By Croczi.com</a> 
-                            </Row>
+                            </Row> */}
 
 
 

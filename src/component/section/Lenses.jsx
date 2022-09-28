@@ -35,6 +35,8 @@ class Lenses extends React.Component {
                 {ctx => {
                     //    if (ctx.value.auth ==='lgoin' ||  ctx.value.auth ==='notlogin' ){
                     return (
+                        <div id='min1_home1' >
+                        <div  id='mainCont1' >
                         <div id='mainEquContiner_cate' style={{ backgroundColor: '#F8F6EA' }} >
                             <div id='apfot'>
                                 <Nav2 />
@@ -81,7 +83,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le1.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Mocca' img='le1.jpg' />
@@ -93,7 +95,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le2.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Royal Blue' img='le2.jpg' />
@@ -103,7 +105,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le3.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Caramel Stone' img='le3.jpg' />
@@ -114,7 +116,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le4.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Burned Cinnamon' img='le4.jpg' />
@@ -125,7 +127,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le5.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Ash Gray' img='le5.jpg' />
@@ -136,7 +138,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le6.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Warm Gray' img='le6.jpg' />
@@ -146,7 +148,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le7.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Olive Gray' img='le7.jpg' />
@@ -156,7 +158,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le8.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Panther Eye' img='le8.jpg' />
@@ -167,7 +169,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le9.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Dark Sepia' img='le9.jpg' />
@@ -178,7 +180,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le10.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Crocodile Green' img='le10.jpg' />
@@ -188,7 +190,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le11.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Brown Gold' img='le11.jpg' />
@@ -198,7 +200,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le12.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Sky Gray' img='le12.jpg' />
@@ -225,7 +227,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le13.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Hazel Wood' img='le13.jpg' />
@@ -235,7 +237,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le14.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Spanish Late' img='le14.jpg'
@@ -246,7 +248,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le15.jpg')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Desert Rose' img='le15.jpg'
@@ -260,7 +262,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le16.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Smoke Gray' img='le16.JPG'
@@ -274,7 +276,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le17.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Gentle Gray' img='le17.JPG'
@@ -288,7 +290,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le19.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Horizon Gray' img='le19.JPG'
@@ -300,7 +302,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le18.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Pearl' img='le18.JPG'
@@ -312,7 +314,7 @@ class Lenses extends React.Component {
                                             <Col id='ColOurProdect' xs={12} md={6} lg={4} xl={3}
 
                                             >
-                                                <div id='perfume1' >
+                                                <div id='perfume2' >
                                                     <img id='slid_imglense' src={require('../../assets/img/le20.JPG')} alt='img' style={{ position: 'relative' }} />
                                                     <div style={{ position: 'absolute' }} >
                                                         <Mod name='Golden Sand ' img='le20.JPG'
@@ -354,7 +356,7 @@ class Lenses extends React.Component {
                             <Footer />
                         </div>
 
-
+</div></div>
 
                     )
                     // }
